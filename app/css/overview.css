@@ -6,10 +6,10 @@ Error: Undefined variable: "$light-green".
 2:   .overview{
 3:     background-color: $light-green;
 4:     .overview_top{
-5:       text-align: center;
-6:       color: white;
-7:       font-family: $header-font;
-8:     }
+5:       color: white;
+6:       font-family: $header-font;
+7:       height: 180px;
+8:       @include display-flex();
 
 Backtrace:
 scss/overview.scss:3
@@ -75,4 +75,4 @@ scss/overview.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$light-green\".\A         on line 3 of scss/overview.scss\A \A 1: #content{\A 2:   .overview{\A 3:     background-color: $light-green;\A 4:     .overview_top{\A 5:       text-align: center;\A 6:       color: white;\A 7:       font-family: $header-font;\A 8:     }"; }
+  content: "Error: Undefined variable: \"$light-green\".\A         on line 3 of scss/overview.scss\A \A 1: #content{\A 2:   .overview{\A 3:     background-color: $light-green;\A 4:     .overview_top{\A 5:       color: white;\A 6:       font-family: $header-font;\A 7:       height: 180px;\A 8:       @include display-flex();"; }

@@ -1,8 +1,19 @@
 .sponsor-page{
-  h2{
-    text-align: center;
+
+  .sponsor_top{
     color: white;
+    font-family: $header-font;
+    height: 180px;
+    @include display-flex();
+    @include align-items(flex-end);
+    @include justify-content(center);
+
+    p {
+      font-size: 50px;
+      color: $dark-green;
+    }
   }
+
   font-family: $body-font;
   .sponsor-about{
     h3{
@@ -20,7 +31,7 @@
       text-align: center;
       margin: 10px 0;
     }
-    .input-container{ 
+    .input-container{
       display: flex;
       flex-direction: column;
       align-items: center;

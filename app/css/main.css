@@ -8,7 +8,7 @@
 /*
     Display
  */
-.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .top, .burger-menu, .side-nav, .menu-points {
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .top, .burger-menu, .side-nav, .menu-points {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flexbox;
@@ -51,7 +51,7 @@
 /*
     Justify content
  */
-.event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .side-nav {
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .side-nav {
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -webkit-flex-pack: center;
@@ -77,6 +77,13 @@
 /*
     Align items
  */
+#content .overview .overview_top, .sponsor-page .sponsor_top {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  align-items: flex-end; }
+
 .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .top {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -93,9 +100,12 @@
 #content .overview {
   background-color: #F1FEF9; }
   #content .overview .overview_top {
-    text-align: center;
     color: white;
-    font-family: "Overpass Mono", monospace; }
+    font-family: "Overpass Mono", monospace;
+    height: 180px; }
+    #content .overview .overview_top p {
+      font-size: 50px;
+      color: #09765B; }
   #content .overview .overview_filters {
     display: flex;
     justify-content: space-around;
@@ -319,9 +329,13 @@
 
 .sponsor-page {
   font-family: "Lato", sans-serif; }
-  .sponsor-page h2 {
-    text-align: center;
-    color: white; }
+  .sponsor-page .sponsor_top {
+    color: white;
+    font-family: "Overpass Mono", monospace;
+    height: 180px; }
+    .sponsor-page .sponsor_top p {
+      font-size: 50px;
+      color: #09765B; }
   .sponsor-page .sponsor-about {
     background-color: white;
     padding: 10px; }
@@ -406,6 +420,9 @@ h1, h2, h3, h4, h5 {
   padding-left: 10px;
   z-index: 400;
   position: fixed; }
+
+.black-nav {
+  background-color: rgba(0, 0, 0, 0.3); }
 
 svg {
   width: 180px;

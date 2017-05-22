@@ -1,9 +1,11 @@
 <?php
 ?>
 <div class="sponsor-page">
-    <h2>Sponsor</h2>
+    <div class="sponsor_top gradient">
+        <p>sponsor</p>
+    </div>
     <div class="sponsor-about">
-        <h3>The benefits of becoming a sponsor</h3>
+        <h3>the benefits of becoming a sponsor</h3>
         <p>
             Cras pharetra id mi id pulvinar. In hac habitasse platea dictumst. Donec ligula magna, lacinia sed neque nec, pharetra congue orci. Sed eget molestie neque. Cras vel tortor et nisi ornare vehicula a sit amet nibh. Nam feugiat efficitur sem, eu volutpat risus sagittis ut. Donec vestibulum at ipsum non auctor. Nullam mattis laoreet tellus eu bibendum. Mauris et accumsan odio. Suspendisse mollis finibus risus, eget malesuada elit molestie ut. Praesent nec massa nisl. Donec in finibus nisi.
         </p>
@@ -33,4 +35,3 @@
         </div>
     </div>
 </div>
-
