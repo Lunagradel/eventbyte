@@ -23,19 +23,24 @@
             <div class="menu-line"></div>
           </div>
           <?php require_once 'svg/logo.php' ?>
-        </div>
+
+      </div>
+        <section id="content">
+            <?php
+            if ($_GET["id"]=="frontpage"){
+                include 'frontpage.php';
+            }
+            ?>
+            <?php
+            if ($_GET["id"]=="events"){
+                include 'event-overview.php';
+            }
+            ?>
+        </section>
       </div>
     </div>
-      <section id="main">
-          <p class="console">
-              <span id="caption"></span><span id="cursor">_</span>
-          </p>
-      </section>
-  <?php
-  if ($_GET["id"]=="events"){
-      include 'event-overview.php';
-  }
-  ?>
+
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script>

@@ -1,17 +1,21 @@
 <?php
+$pageTitle = "Events"
 ?>
 <section class="overview">
-    <div class="overview_top">
+    <div class="overview_top gradient">
         <h2>events</h2>
     </div>
     <div class="overview_filters">
         <div class="overview_filters-view">
-            <button id="overview-calendar"><i class="fa fa-calendar" aria-hidden="true"></i></button>
-            <button id="overview-list"><i class="fa fa-bars" aria-hidden="true"></i>
-            <button id="overview-grid"><i class="fa fa-th" aria-hidden="true"></i></button>
+            <div>Select View</div>
+            <div>
+                <span class="" id="overview-calendar"><i class="fa fa-calendar fa-lg" aria-hidden="true"></i></span>
+                <span class="active" id="overview-list"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></span>
+                <span class="" id="overview-grid"><i class="fa fa-th fa-lg" aria-hidden="true"></i></span>
+            </div>
         </div>
         <select class="overview_filters-selector">
-            <option value="" disabled selected>What are you looking for?</option>
+            <option value="" disabled selected>Filter</option>
             <option value="volvo">Media</option>
             <option value="saab">Programming</option>
             <option value="mercedes">Maker</option>

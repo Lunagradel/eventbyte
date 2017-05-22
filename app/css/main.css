@@ -76,6 +76,37 @@
 /*
     Align content
  */
+#content .overview {
+  background-color: #F1FEF9; }
+  #content .overview .overview_top {
+    text-align: center; }
+  #content .overview .overview_filters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 5px; }
+    #content .overview .overview_filters .overview_filters-view {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #content .overview .overview_filters .overview_filters-view div:last-child {
+        width: 100%;
+        display: flex;
+        justify-content: space-around; }
+        #content .overview .overview_filters .overview_filters-view div:last-child span {
+          cursor: pointer; }
+          #content .overview .overview_filters .overview_filters-view div:last-child span i {
+            vertical-align: middle; }
+        #content .overview .overview_filters .overview_filters-view div:last-child span.active {
+          color: #C3461E; }
+    #content .overview .overview_filters .overview_filters-selector {
+      -webkit-appearance: none;
+      border-radius: 0;
+      border: solid 2px #09765B;
+      padding: 2px; }
+    #content .overview .overview_filters input {
+      border: solid 2px #09765B; }
+
 * {
   margin: 0px;
   padding: 0px;
