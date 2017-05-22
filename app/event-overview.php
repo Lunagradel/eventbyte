@@ -22,8 +22,20 @@ $pageTitle = "Events"
             <p class="info-body">Lygten 37</p>
           </div>
         </div>
-        <div class="sign-up-button">
+        <div class="sign-up-button" id="showSignUp">
           <p>Sign Up</p>
+        </div>
+      </section>
+      <section class="pop-sign-up hidden">
+        <div class="sign-up">
+          <input type="text" name="" value="" placeholder="Name">
+          <input type="text" name="" value="" placeholder="E-mail">
+          <div class="submit-button" id="signUpBtn">
+            <p>Submit</p>
+          </div>
+        </div>
+        <div class="sign-up-thx">
+          <p>Thank you for signing up. We sent you a confirmation email.</p>
         </div>
       </section>
       <section class="pop-information">
@@ -46,6 +58,10 @@ $pageTitle = "Events"
           <p class="tag">#tech</p>
           <p class="tag">#tech</p>
         </div>
+      </section>
+      <section class="map">
+        <!-- <iframe width="300" height="170" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q='+YOUR_LAT+','+YOUR_LON+'&hl=es;z=14&amp;output=embed"></iframe> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.1399962285113!2d12.535302515881423!3d55.70393828054034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652524912e8e8a1%3A0x6a2ccf5cf3935c0e!2sKEA+IT+TECHNOLOGY!5e0!3m2!1sda!2sdk!4v1495475823364" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </section>
     </div>
 </div>

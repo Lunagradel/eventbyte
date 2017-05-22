@@ -30,3 +30,16 @@ $(".sponsor-apply-btn").click(function () {
     $(this).hide();
 
 });
+
+
+$(document).on("click", "#signUpBtn", function(){
+
+    $(".sign-up").slideUp(500, function(){
+      $(".sign-up-thx").fadeIn();
+    });
+
+});
+
+$(document).on("click","#showSignUp", function(){
+  $(".pop-sign-up").toggleClass("hidden");
+});

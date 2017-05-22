@@ -8,7 +8,7 @@
 /*
     Display
  */
-.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .top, .burger-menu, .side-nav, .menu-points {
+.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .top, .burger-menu, .side-nav, .menu-points {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flexbox;
@@ -51,7 +51,7 @@
 /*
     Justify content
  */
-.event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .side-nav {
+.event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .side-nav {
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -webkit-flex-pack: center;
@@ -60,7 +60,7 @@
   -webkit-justify-content: center;
   justify-content: center; }
 
-.event-pop .pop-important-info, .event-pop .pop-important-info .information, .burger-menu {
+.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .burger-menu {
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
   -webkit-flex-pack: justify;
@@ -69,7 +69,7 @@
   -webkit-justify-content: space-between;
   justify-content: space-between; }
 
-.menu-points {
+.event-pop .pop-sign-up, .menu-points {
   -moz-justify-content: space-around;
   -webkit-justify-content: space-around;
   justify-content: space-around; }
@@ -77,7 +77,7 @@
 /*
     Align items
  */
-.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .top {
+.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .top {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
@@ -181,15 +181,15 @@
 
 .event-pop-wrapper {
   width: 100%;
-  position: fixed;
+  position: absolute;
   z-index: 600;
   background-color: rgba(0, 0, 0, 0.25);
   overflow: scroll; }
 
 .event-pop {
   width: 75%;
-  height: 1000px;
-  margin-top: 20px;
+  height: auto;
+  margin: 20px 0px 20px 0px;
   background-color: #F1FEF9;
   overflow: scroll; }
   .event-pop .pop-top {
@@ -223,18 +223,71 @@
     .event-pop .pop-important-info .sign-up-button {
       width: 200px;
       height: 40px;
-      background-color: #C3461E; }
+      background-color: #C3461E;
+      cursor: pointer; }
       .event-pop .pop-important-info .sign-up-button p {
         color: #ffffff;
         font-family: "Lato", sans-serif;
         font-size: 20px; }
+  .event-pop .hidden {
+    display: none; }
+  .event-pop .pop-sign-up {
+    width: 100%;
+    height: 50px;
+    background-color: #09765B; }
+    .event-pop .pop-sign-up .sign-up {
+      width: 70%;
+      height: 100%; }
+      .event-pop .pop-sign-up .sign-up input {
+        width: 200px;
+        height: 25px;
+        background-color: #F1FEF9;
+        border: none;
+        font-size: 15px;
+        padding-left: 5px; }
+        .event-pop .pop-sign-up .sign-up input::-webkit-input-placeholder {
+          /* WebKit, Blink, Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .event-pop .pop-sign-up .sign-up input:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .event-pop .pop-sign-up .sign-up input:-moz-placeholder {
+          /* Mozilla Firefox 19+ */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .event-pop .pop-sign-up .sign-up input:-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .event-pop .pop-sign-up .sign-up input:-ms-input-placeholder {
+          /* Microsoft Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+      .event-pop .pop-sign-up .sign-up .submit-button {
+        width: 200px;
+        height: 25px;
+        background-color: #C3461E;
+        cursor: pointer; }
+        .event-pop .pop-sign-up .sign-up .submit-button p {
+          color: #ffffff;
+          font-family: "Lato", sans-serif;
+          font-size: 15px; }
+    .event-pop .pop-sign-up .sign-up-thx {
+      display: none;
+      color: #ffffff;
+      font-family: "Lato", sans-serif;
+      font-size: 15px; }
   .event-pop .pop-information {
     width: 100%;
-    height: 500px; }
+    height: auto; }
     .event-pop .pop-information .pop-about {
       width: 70%;
       height: auto;
-      margin-top: 20px;
+      margin: 20px 0px 20px 0px;
       padding-left: 15px; }
       .event-pop .pop-information .pop-about .about-header {
         font-family: "Overpass Mono", monospace;
@@ -261,6 +314,8 @@
         font-family: "Lato", sans-serif;
         font-size: 25px;
         padding-left: 10px; }
+  .event-pop .map iframe {
+    width: 100%; }
 
 .sponsor-page {
   padding-top: 60px;
