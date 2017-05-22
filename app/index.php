@@ -12,6 +12,12 @@
 
     <div class="side-nav">
       <div class="close" id="closeNav">X</div>
+      <div class="menu-points">
+        <a class="menu-point">HOME<span class="active">_</span></a>
+        <a class="menu-point">EVENTS</a>
+        <a class="menu-point">SPONSORS</a>
+        <a class="menu-point">ABOUT</a>
+      </div>
     </div>
     <div class="main">
       <div class="gradient frontpage-top">
@@ -32,12 +38,16 @@
   $(document).on("click", "#openNav", function(){
     $(".side-nav").css("width","60%");
     $("body").css("overflow", "hidden");
+    $(".menu-point").css("opacity", "1");
   });
 
   $(document).on("click", "#closeNav", function() {
     $(".side-nav").css("width","0");
     $("body").css("overflow", "auto");
+    $(".menu-point").css("opacity", "0");
   });
+
+
 
   </script>
   </body>
