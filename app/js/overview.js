@@ -42,8 +42,11 @@ function getEvents(destination) {
                     $.each(val.tags, function (key, tag) {
                         var tagMarkUp = '<p class="tag">'+tag+'</p>'
                         $(".tags").append(tagMarkUp);
-                    })
-
+                    });
+                    var mapUrl = $("#googleMap").attr("src").toString();
+                    var newMapUrl = mapUrl.replace("'+YOUR_LAT+'", val.geoLocation[0]);
+                    newMapUrl = newMapUrl.replace("'+YOUR_LON+'", val.geoLocation[1]);
+                    document.getElementById("googleMap").src = newMapUrl;
                 }
             })
         })

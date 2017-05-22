@@ -38,13 +38,17 @@
     </div>
     <div class="main">
       <!-- <div class="gradient frontpage-top"> -->
-        <div class="top">
+        <div class="top <?php
+            if ($_GET["id"]=="events" || $_GET["id"]=="sponsor"){
+                echo 'black-nav';
+            }
+            ?>">
           <div class="burger-menu" id="openNav">
             <div class="menu-line"></div>
             <div class="menu-line"></div>
             <div class="menu-line"></div>
           </div>
-          <?php require_once 'svg/logo.php' ?>
+          <a href="index.php?id=frontpage"><?php require_once 'svg/logo.php' ?></a>
 
       </div>
         <section id="content">

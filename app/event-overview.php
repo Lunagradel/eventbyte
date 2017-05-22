@@ -60,15 +60,15 @@ $pageTitle = "Events"
         </div>
       </section>
       <section class="map">
-        <!-- <iframe width="300" height="170" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q='+YOUR_LAT+','+YOUR_LON+'&hl=es;z=14&amp;output=embed"></iframe> -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.1399962285113!2d12.535302515881423!3d55.70393828054034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652524912e8e8a1%3A0x6a2ccf5cf3935c0e!2sKEA+IT+TECHNOLOGY!5e0!3m2!1sda!2sdk!4v1495475823364" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe id="googleMap" width="300" height="170" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q='+YOUR_LAT+','+YOUR_LON+'&hl=es;z=14&amp;output=embed"></iframe>
+<!--        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.1399962285113!2d12.535302515881423!3d55.70393828054034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652524912e8e8a1%3A0x6a2ccf5cf3935c0e!2sKEA+IT+TECHNOLOGY!5e0!3m2!1sda!2sdk!4v1495475823364" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
       </section>
     </div>
 </div>
 
 <section class="overview">
     <div class="overview_top gradient">
-        <h2>events</h2>
+        <p>events</p>
     </div>
     <div class="overview_filters">
         <div class="overview_filters-view">

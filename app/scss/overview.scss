@@ -2,9 +2,17 @@
   .overview{
     background-color: $light-green;
     .overview_top{
-      text-align: center;
       color: white;
       font-family: $header-font;
+      height: 180px;
+      @include display-flex();
+      @include align-items(flex-end);
+      @include justify-content(center);
+
+      p {
+        font-size: 50px;
+        color: $dark-green;
+      }
     }
     .overview_filters{
       display: flex;

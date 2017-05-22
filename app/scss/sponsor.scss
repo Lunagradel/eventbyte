@@ -1,9 +1,20 @@
 .sponsor-page{
-  padding-top: 60px;
-  h2{
-    text-align: center;
+
+  .sponsor_top{
+    padding-top: 60px;
     color: white;
+    font-family: $header-font;
+    height: 180px;
+    @include display-flex();
+    @include align-items(flex-end);
+    @include justify-content(center);
+
+    p {
+      font-size: 50px;
+      color: $dark-green;
+    }
   }
+
   font-family: $body-font;
   .sponsor-about{
     h3{

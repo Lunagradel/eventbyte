@@ -7,7 +7,7 @@
 	"time": "20:00",
 	"imgUrl": "../img/datguy.jpg",
 	"address": "Nørrebrogade 32",
-	"geoLocation": [20.00, 45.00],
+	"geoLocation": [55.672407, 12.521400],
 	"requirement": "Bring your laptop and touch the keyboard a whole lot"
 
 }, {
@@ -19,7 +19,7 @@
 	"time": "20:00",
 	"imgUrl": "www.google.com",
 	"address": "Lygten 32",
-	"geoLocation": [20.00, 45.00],
+	"geoLocation": [55.699116, 12.553973],
 	"requirement": "Bring your laptop and touch the keyboard a whole lot"
 
 }, {
