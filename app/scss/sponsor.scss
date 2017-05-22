@@ -1,0 +1,78 @@
+.sponsor-page{
+  h2{
+    text-align: center;
+    color: white;
+  }
+  font-family: $body-font;
+  .sponsor-about{
+    h3{
+      color: $dark-green;
+    }
+    background-color: white;
+    padding: 10px;
+
+  }
+  .sponsor-signup{
+    color: white;
+    padding: 10px;
+    .sponsor-thx{
+      width: 100%;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .input-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      input{
+        width: 600px;
+        border: none;
+        margin: 10px 0;
+        padding: 20px;
+        &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+          color: black;
+          font-family: $body-font;
+        }
+        &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+          color: black;
+          font-family: $body-font;
+          opacity: 1;
+        }
+        &:-moz-placeholder { /* Mozilla Firefox 19+ */
+          color: black;
+          font-family: $body-font;
+          opacity: 1;
+        }
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+          color: black;
+          font-family: $body-font;
+        }
+        &:-ms-input-placeholder { /* Microsoft Edge */
+          color: black;
+          font-family: $body-font;
+        }
+      }
+      .sponsor-input-mail, .sponsor-input-subject{
+        height: 50px;
+      }
+      .sponsor-input-text{
+        height: 300px;
+      }
+      .sponsor-apply-btn{
+        width: 600px;
+        background-color: $orange;
+        text-align: center;
+        padding: 10px;
+      }
+      @include bp-mobile() {
+        input{
+          width: 100%;
+        }
+        .sponsor-apply-btn {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}

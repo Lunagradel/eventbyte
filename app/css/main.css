@@ -209,6 +209,69 @@
     background-color: #1EC39A;
     opacity: 0.3; }
 
+.sponsor-page {
+  font-family: "Lato", sans-serif; }
+  .sponsor-page h2 {
+    text-align: center;
+    color: white; }
+  .sponsor-page .sponsor-about {
+    background-color: white;
+    padding: 10px; }
+    .sponsor-page .sponsor-about h3 {
+      color: #09765B; }
+  .sponsor-page .sponsor-signup {
+    color: white;
+    padding: 10px; }
+    .sponsor-page .sponsor-signup .sponsor-thx {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0; }
+    .sponsor-page .sponsor-signup .input-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .sponsor-page .sponsor-signup .input-container input {
+        width: 600px;
+        border: none;
+        margin: 10px 0;
+        padding: 20px; }
+        .sponsor-page .sponsor-signup .input-container input::-webkit-input-placeholder {
+          /* WebKit, Blink, Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .sponsor-page .sponsor-signup .input-container input:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .sponsor-page .sponsor-signup .input-container input:-moz-placeholder {
+          /* Mozilla Firefox 19+ */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .sponsor-page .sponsor-signup .input-container input:-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .sponsor-page .sponsor-signup .input-container input:-ms-input-placeholder {
+          /* Microsoft Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+      .sponsor-page .sponsor-signup .input-container .sponsor-input-mail, .sponsor-page .sponsor-signup .input-container .sponsor-input-subject {
+        height: 50px; }
+      .sponsor-page .sponsor-signup .input-container .sponsor-input-text {
+        height: 300px; }
+      .sponsor-page .sponsor-signup .input-container .sponsor-apply-btn {
+        width: 600px;
+        background-color: #C3461E;
+        text-align: center;
+        padding: 10px; }
+      @media only screen and (max-width: 736px) {
+        .sponsor-page .sponsor-signup .input-container input {
+          width: 100%; }
+        .sponsor-page .sponsor-signup .input-container .sponsor-apply-btn {
+          width: 100%; } }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -216,6 +279,9 @@
 
 body {
   background-color: #1EC39A; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Overpass Mono", monospace; }
 
 .gradient {
   background: -webkit-linear-gradient(left top, #1EC39A, #6ABEAB);

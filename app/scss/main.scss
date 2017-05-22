@@ -3,6 +3,7 @@
 @import "sass-flexbox";
 @import "overview";
 @import "eventpop";
+@import "sponsor";
 
 * {
   margin: 0px;
@@ -14,6 +15,9 @@ body {
   background-color: $base-green;
 }
 
+h1, h2, h3, h4, h5{
+  font-family: $header-font;
+}
 .gradient {
   @include gradient($base-green, $cyan);
 }

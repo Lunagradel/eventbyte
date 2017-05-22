@@ -24,7 +24,11 @@
                 echo '<span class="active-span">_</span>';
             }
             ?></a>
-        <a class="menu-point">SPONSORS</a>
+        <a class="menu-point" href="index.php?id=sponsor">SPONSORS<?php
+            if ($_GET["id"]=="sponsor"){
+                echo '<span class="active-span">_</span>';
+            }
+            ?></a>
         <a class="menu-point">ABOUT</a>
       </div>
     </div>
@@ -44,12 +48,14 @@
             if ($_GET["id"]=="frontpage"){
                 include 'frontpage.php';
             }
-            ?>
-            <?php
             if ($_GET["id"]=="events"){
                 include 'event-overview.php';
             }
+            if ($_GET["id"]=="sponsor"){
+                include 'sponsor.php';
+            }
             ?>
+
         </section>
     </div>
 

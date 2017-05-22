@@ -58,4 +58,16 @@
 	"geoLocation": [20.00, 45.00],
 	"requirement": "Bring your laptop and touch the keyboard a whole lot"
 
+}, {
+	"id": 5,
+	"title": "Get crackin' with GitKraken",
+	"description": "Are you a nubcake? Sure you are, come a join our greenhorn course introductionary visionary compositionation alienation friggin HECK!",
+	"tags": ["#git", "#versionControl", "#programming"],
+	"date": "16-05-2017",
+	"time": "20:00",
+	"imgUrl": "www.google.com",
+	"address": "Lygten 32",
+	"geoLocation": [20.00, 45.00],
+	"requirement": "Bring your laptop and touch the keyboard a whole lot"
+
 }]
