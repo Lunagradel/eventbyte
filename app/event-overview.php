@@ -5,7 +5,7 @@ $pageTitle = "Events"
 <div class="event-pop-wrapper canvas">
     <div class="event-pop">
       <section class="pop-top">
-        <div class="green-overlay"></div>
+        <!-- <div class="green-overlay"></div> -->
         <p class="pop-name">eventname</p>
       </section>
     </div>

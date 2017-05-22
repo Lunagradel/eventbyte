@@ -161,7 +161,7 @@
       height: 350px;
       padding: 5px;
       position: relative;
-      background: center center no-repeat url("../img/datguy.jpg"); }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), center center no-repeat url("../img/datguy.jpg"); }
       #content .overview .overview-content.grid .event-item .green-overlay {
         width: 100%;
         height: 100%;
