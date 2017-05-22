@@ -85,10 +85,20 @@
       justify-content: center;
       .event-item{
         width: 33.33%;
-        height: 200px;
+        height: 350px;
         padding: 5px;
         position: relative;
         background: center center no-repeat url("../img/datguy.jpg");
+
+        .green-overlay{
+          width: 100%;
+          height: 100%;
+          background-color: $base-green;
+          bottom: 0 !important;
+          left: 0;
+          opacity: 0.3;
+        }
+
         div{
           opacity: 0;
           position: absolute;
@@ -99,7 +109,7 @@
         .event-item_date:after{
           content: ",";
         }
-        @include bp-mobile() { 
+        @include bp-mobile() {
           width: 50%;
         }
       }

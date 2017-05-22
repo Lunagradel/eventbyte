@@ -25,6 +25,7 @@ $pageTitle = "Events"
     </div>
     <div class="overview-content list">
         <div class="event-item">
+          <div class="green-overlay"></div>
             <h3>Event Title</h3>
             <div>
                 <span class="event-item_date">26/05-17</span>

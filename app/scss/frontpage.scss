@@ -35,7 +35,7 @@
 .sponsor-section {
   width: 100%;
   height: 500px;
-  background-color: $base-green;
+  background-color: $dark-green;
 
   p {
     font-family: $header-font;
@@ -67,7 +67,8 @@
 }
 
 .sponsor-img {
-  height: 100%;
+  width: 25%;
+  @include align-self(center);
 }
 
 .sponsor-contact {
@@ -83,5 +84,57 @@
     font-family: $body-font;
     color: #ffffff;
     font-size: 20px;
+  }
+}
+
+.overview-content.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .event-item{
+    width: 33.33%;
+    height: 350px;
+    padding: 5px;
+    position: relative;
+    background: center center no-repeat url("../img/datguy.jpg");
+
+    .green-overlay{
+      width: 100%;
+      height: 100%;
+      background-color: $base-green;
+      bottom: 0 !important;
+      left: 0;
+      opacity: 0.3;
+    }
+
+    div{
+      opacity: 0;
+      position: absolute;
+      bottom: 5px;
+      background-color: white;
+      @include transition(opacity .25s ease-in-out)
+    }
+    .event-item_date:after{
+      content: ",";
+    }
+    @include bp-mobile() {
+      width: 50%;
+    }
+  }
+  .event-item:hover{
+    div{
+      opacity: 1;
+    }
+  }
+}
+
+.overview-content{
+  color: $dark-green;
+  font-family: $body-font;
+  h3{
+    color: white;
+    background-color: $dark-green;
+    font-family: $header-font;
+    display:inline-block;
   }
 }
