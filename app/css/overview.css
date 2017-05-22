@@ -1,18 +1,19 @@
 /*
 Error: Undefined variable: "$light-green".
-        on line 3 of scss/overview.scss
+        on line 4 of scss/overview.scss
 
 1: #content{
-2:   .overview{
-3:     background-color: $light-green;
-4:     .overview_top{
-5:       text-align: center;
-6:       color: white;
-7:       font-family: $header-font;
-8:     }
+2:   padding-top: 60px;
+3:   .overview{
+4:     background-color: $light-green;
+5:     .overview_top{
+6:       text-align: center;
+7:       color: white;
+8:       font-family: $header-font;
+9:     }
 
 Backtrace:
-scss/overview.scss:3
+scss/overview.scss:4
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -73,4 +74,4 @@ scss/overview.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$light-green\".\A         on line 3 of scss/overview.scss\A \A 1: #content{\A 2:   .overview{\A 3:     background-color: $light-green;\A 4:     .overview_top{\A 5:       text-align: center;\A 6:       color: white;\A 7:       font-family: $header-font;\A 8:     }"; }
+  content: "Error: Undefined variable: \"$light-green\".\A         on line 4 of scss/overview.scss\A \A 1: #content{\A 2:   padding-top: 60px;\A 3:   .overview{\A 4:     background-color: $light-green;\A 5:     .overview_top{\A 6:       text-align: center;\A 7:       color: white;\A 8:       font-family: $header-font;\A 9:     }"; }

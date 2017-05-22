@@ -14,8 +14,16 @@
     <div class="side-nav">
       <div class="close" id="closeNav">X</div>
       <div class="menu-points">
-        <a class="menu-point">HOME<span class="active-span">_</span></a>
-        <a class="menu-point">EVENTS</a>
+        <a class="menu-point" href="index.php?id=frontpage">HOME<?php
+            if ($_GET["id"]=="frontpage"){
+                echo '<span class="active-span">_</span>';
+            }
+            ?></a>
+        <a class="menu-point" href="index.php?id=events">EVENTS<?php
+            if ($_GET["id"]=="events"){
+                echo '<span class="active-span">_</span>';
+            }
+            ?></a>
         <a class="menu-point">SPONSORS</a>
         <a class="menu-point">ABOUT</a>
       </div>
