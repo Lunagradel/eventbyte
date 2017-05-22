@@ -10,20 +10,69 @@
   </div>
   <div class="join">join us!</div>
 </section>
+<section>
+  <div class="overview-content grid">
+      <div class="event-item">
+        <div class="green-overlay"></div>
+          <h3>Event Title</h3>
+          <div>
+              <span class="event-item_date">26/05-17</span>
+              <span class="event-item_location">Lygten 37</span>
+          </div>
+      </div>
+      <div class="event-item">
+        <div class="green-overlay"></div>
+          <h3>Event Title</h3>
+          <div>
+              <span class="event-item_date">26/05-17</span>
+              <span class="event-item_location">Lygten 37</span>
+          </div>
+      </div>
+      <div class="event-item">
+        <div class="green-overlay"></div>
+          <h3>Event Title</h3>
+          <div>
+              <span class="event-item_date">26/05-17</span>
+              <span class="event-item_location">Lygten 37</span>
+          </div>
+      </div>
+      <div class="event-item">
+        <div class="green-overlay"></div>
+          <h3>Event Title</h3>
+          <div>
+              <span class="event-item_date">26/05-17</span>
+              <span class="event-item_location">Lygten 37</span>
+          </div>
+      </div>
+      <div class="event-item">
+        <div class="green-overlay"></div>
+          <h3>Event Title</h3>
+          <div>
+              <span class="event-item_date">26/05-17</span>
+              <span class="event-item_location">Lygten 37</span>
+          </div>
+      </div>
+      <div class="event-item">
+        <div class="green-overlay"></div>
+          <h3>Event Title</h3>
+          <div>
+              <span class="event-item_date">26/05-17</span>
+              <span class="event-item_location">Lygten 37</span>
+          </div>
+      </div>
+  </div>
+</section>
 <section class="sponsor-section">
   <p>sponsors</p>
   <div class="sponsors-example">
     <div class="sponsor-row first">
-      <div class="sponsor-img"></div>
-      <div class="sponsor-img"></div>
-      <div class="sponsor-img"></div>
-      <!-- <img class="sponsor-img" src="img/unity-logo.png" alt="">
+      <img class="sponsor-img" src="img/unity-logo.png" alt="">
       <img class="sponsor-img" src="img/oracle.png" alt="">
-      <img class="sponsor-img" src="img/unity-logo.png" alt=""> -->
+      <img class="sponsor-img" src="img/bing.png" alt="">
     </div>
     <div class="sponsor-row second">
-      <!-- <img class="sponsor-img" src="img/unity-logo.png" alt="">
-      <img class="sponsor-img" src="img/unity-logo.png" alt=""> -->
+      <img class="sponsor-img" src="img/hooli-logo.png" alt="">
+      <img class="sponsor-img" src="img/skynet.png" alt="">
     </div>
   </div>
 </section>

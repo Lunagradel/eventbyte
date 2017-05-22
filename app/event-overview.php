@@ -1,6 +1,16 @@
 <?php
 $pageTitle = "Events"
 ?>
+
+<div class="event-pop-wrapper canvas">
+    <div class="event-pop">
+      <section class="pop-top">
+        <div class="green-overlay"></div>
+        <p class="pop-name">eventname</p>
+      </section>
+    </div>
+</div>
+
 <section class="overview">
     <div class="overview_top gradient">
         <h2>events</h2>
