@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'display-flex'.
-        on line 7 of scss/eventpop.scss, in `display-flex'
-        from line 7 of scss/eventpop.scss
+        on line 6 of scss/eventpop.scss, in `display-flex'
+        from line 6 of scss/eventpop.scss
 
+1: .event-pop-wrapper {
 2:   width: 100%;
-3:   height: 100vh;
-4:   position: fixed;
-5:   z-index: 600;
-6:   background-color: rgba(0,0,0,.25);
-7:   @include display-flex();
-8:   @include justify-content(center);
-9:   @include align-items(center);
+3:   position: fixed;
+4:   z-index: 600;
+5:   background-color: rgba(0,0,0,.25);
+6:   @include display-flex();
+7:   @include justify-content(center);
+8:   @include align-items(center);
+9:   overflow: scroll;
 10: }
 11: 
-12: .event-pop {
 
 Backtrace:
-scss/eventpop.scss:7:in `display-flex'
-scss/eventpop.scss:7
+scss/eventpop.scss:6:in `display-flex'
+scss/eventpop.scss:6
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
@@ -71,4 +71,4 @@ scss/eventpop.scss:7
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'display-flex'.\A         on line 7 of scss/eventpop.scss, in `display-flex'\A         from line 7 of scss/eventpop.scss\A \A 2:   width: 100%;\A 3:   height: 100vh;\A 4:   position: fixed;\A 5:   z-index: 600;\A 6:   background-color: rgba(0,0,0,.25);\A 7:   @include display-flex();\A 8:   @include justify-content(center);\A 9:   @include align-items(center);\A 10: }\A 11: \A 12: .event-pop {"; }
+  content: "Error: Undefined mixin 'display-flex'.\A         on line 6 of scss/eventpop.scss, in `display-flex'\A         from line 6 of scss/eventpop.scss\A \A 1: .event-pop-wrapper {\A 2:   width: 100%;\A 3:   position: fixed;\A 4:   z-index: 600;\A 5:   background-color: rgba(0,0,0,.25);\A 6:   @include display-flex();\A 7:   @include justify-content(center);\A 8:   @include align-items(center);\A 9:   overflow: scroll;\A 10: }\A 11: "; }
