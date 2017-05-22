@@ -11,15 +11,15 @@ $pageTitle = "Events"
         <div class="information">
           <div class="info">
             <p class="info-header">day</p>
-            <p class="info-body">01/02/17</p>
+            <p class="pop-date info-body">01/02/17</p>
           </div>
           <div class="info">
             <p class="info-header">time</p>
-            <p class="info-body">14:00</p>
+            <p class="pop-time info-body">14:00</p>
           </div>
           <div class="info">
             <p class="info-header">location</p>
-            <p class="info-body">Lygten 37</p>
+            <p class="pop-address info-body">Lygten 37</p>
           </div>
         </div>
         <div class="sign-up-button" id="showSignUp">
@@ -41,13 +41,13 @@ $pageTitle = "Events"
       <section class="pop-information">
         <div class="pop-about">
           <p class="about-header">information</p>
-          <p class="about-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="pop-desc about-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         </div>
         <div class="pop-about">
           <p class="about-header">requirements/</p>
           <p class="about-header">expectations</p>
-          <p class="about-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="pop-req about-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </section>
       <section class="pop-tags">

@@ -184,7 +184,8 @@
   position: absolute;
   z-index: 600;
   background-color: rgba(0, 0, 0, 0.25);
-  overflow: scroll; }
+  overflow: scroll;
+  display: none; }
 
 .event-pop {
   width: 75%;
