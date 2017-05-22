@@ -93,22 +93,30 @@
 #content .overview {
   background-color: #F1FEF9; }
   #content .overview .overview_top {
-    text-align: center; }
+    text-align: center;
+    color: white;
+    font-family: "Overpass Mono", monospace; }
   #content .overview .overview_filters {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 5px; }
+    padding: 10px 5px;
+    color: #09765B;
+    font-family: "Lato", sans-serif; }
     #content .overview .overview_filters .overview_filters-view {
       display: flex;
       flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      flex-grow: 1;
+      margin: 0 30px; }
       #content .overview .overview_filters .overview_filters-view div:last-child {
         width: 100%;
         display: flex;
-        justify-content: space-around; }
+        justify-content: center; }
         #content .overview .overview_filters .overview_filters-view div:last-child span {
-          cursor: pointer; }
+          cursor: pointer;
+          color: black;
+          padding: 5px; }
           #content .overview .overview_filters .overview_filters-view div:last-child span i {
             vertical-align: middle; }
         #content .overview .overview_filters .overview_filters-view div:last-child span.active {
@@ -117,9 +125,59 @@
       -webkit-appearance: none;
       border-radius: 0;
       border: solid 2px #09765B;
-      padding: 2px; }
+      padding: 2px;
+      flex-grow: 1;
+      margin: 0 30px; }
     #content .overview .overview_filters input {
-      border: solid 2px #09765B; }
+      border: solid 2px #09765B;
+      padding: 2px;
+      flex-grow: 1;
+      margin: 0 30px; }
+      #content .overview .overview_filters input[type="text"] {
+        font-family: "Lato", sans-serif; }
+  #content .overview .overview-content {
+    color: #09765B;
+    font-family: "Lato", sans-serif; }
+    #content .overview .overview-content h3 {
+      color: white;
+      background-color: #09765B;
+      font-family: "Overpass Mono", monospace;
+      display: inline-block; }
+  #content .overview .overview-content.list .event-item {
+    padding: 10px;
+    border-top: solid 1px; }
+    #content .overview .overview-content.list .event-item div {
+      margin-top: 5px; }
+    #content .overview .overview-content.list .event-item .event-item_date:after {
+      content: ","; }
+  #content .overview .overview-content.list .event-item:last-of-type {
+    border-bottom: solid 1px; }
+  #content .overview .overview-content.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    #content .overview .overview-content.grid .event-item {
+      width: 33.33%;
+      height: 200px;
+      padding: 5px;
+      position: relative;
+      background: center center no-repeat url("../img/datguy.jpg"); }
+      #content .overview .overview-content.grid .event-item div {
+        opacity: 0;
+        position: absolute;
+        bottom: 5px;
+        background-color: white;
+        -moz-transition: opacity 0.25s ease-in-out;
+        -o-transition: opacity 0.25s ease-in-out;
+        -webkit-transition: opacity 0.25s ease-in-out;
+        transition: opacity 0.25s ease-in-out; }
+      #content .overview .overview-content.grid .event-item .event-item_date:after {
+        content: ","; }
+      @media only screen and (max-width: 736px) {
+        #content .overview .overview-content.grid .event-item {
+          width: 50%; } }
+    #content .overview .overview-content.grid .event-item:hover div {
+      opacity: 1; }
 
 * {
   margin: 0px;

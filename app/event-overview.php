@@ -21,9 +21,64 @@ $pageTitle = "Events"
             <option value="mercedes">Maker</option>
             <option value="audi">Entertainment</option>
         </select>
-        <input type="text" class="overview_filters-search">
+        <input type="text" placeholder="Search" class="overview_filters-search">
     </div>
-    <div class="overview-content">
+    <div class="overview-content list">
+        <div class="event-item">
+            <h3>Event Title</h3>
+            <div>
+                <span class="event-item_date">26/05-17</span>
+                <span class="event-item_location">Lygten 37</span>
+            </div>
+        </div>
+        <div class="event-item">
+            <h3>Event Title</h3>
+            <div>
+                <span class="event-item_date">26/05-17</span>
+                <span class="event-item_location">Lygten 37</span>
+            </div>
+        </div>
+        <div class="event-item">
+            <h3>Event Title</h3>
+            <div>
+                <span class="event-item_date">26/05-17</span>
+                <span class="event-item_location">Lygten 37</span>
+            </div>
+        </div>
+        <div class="event-item">
+            <h3>Event Title</h3>
+            <div>
+                <span class="event-item_date">26/05-17</span>
+                <span class="event-item_location">Lygten 37</span>
+            </div>
+        </div>
+        <div class="event-item">
+            <h3>Event Title</h3>
+            <div>
+                <span class="event-item_date">26/05-17</span>
+                <span class="event-item_location">Lygten 37</span>
+            </div>
+        </div>
+        <div class="event-item">
+            <h3>Event Title</h3>
+            <div>
+                <span class="event-item_date">26/05-17</span>
+                <span class="event-item_location">Lygten 37</span>
+            </div>
+        </div><div class="event-item">
+            <h3>Event Title</h3>
+            <div>
+                <span class="event-item_date">26/05-17</span>
+                <span class="event-item_location">Lygten 37</span>
+            </div>
+        </div>
+        <div class="event-item">
+            <h3>Event Title</h3>
+            <div>
+                <span class="event-item_date">26/05-17</span>
+                <span class="event-item_location">Lygten 37</span>
+            </div>
+        </div>
 
     </div>
 </section>
