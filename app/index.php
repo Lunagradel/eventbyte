@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/frontpage.css">
+    <script src="https://use.fontawesome.com/bce7f6c050.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato|Overpass+Mono" rel="stylesheet">
   </head>
   <body>
@@ -28,9 +29,24 @@
             <div class="menu-line"></div>
           </div>
           <?php require_once 'svg/logo.php' ?>
-        </div>
+
+      </div>
+        <section id="content">
+            <?php
+            if ($_GET["id"]=="frontpage"){
+                include 'frontpage.php';
+            }
+            ?>
+            <?php
+            if ($_GET["id"]=="events"){
+                include 'event-overview.php';
+            }
+            ?>
+        </section>
       </div>
     </div>
+
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script>
@@ -51,4 +67,5 @@
 
   </script>
   </body>
+<script src="js/console.js"></script>
 </html>
