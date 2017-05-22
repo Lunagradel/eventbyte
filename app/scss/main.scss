@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: $base-green;
+}
+
 .gradient {
   @include gradient($base-green, $cyan);
 }
@@ -17,11 +21,18 @@
   width: 100%;
   @include display-flex();
   @include align-items(center);
+  padding-left: 10px;
 }
 
 //Logo
 svg {
   width: 180px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 15px;
 }
 
 .st2, .st3, .st4, .st5, .st6 {
@@ -64,7 +75,7 @@ svg:hover .logo {
 //Burger-menu
 
 .burger-menu {
-  height: 42px;
+  height: 36px;
   width: 50px;
   @include display-flex();
   @include flex-direction(column);
@@ -74,6 +85,30 @@ svg:hover .logo {
 
 .menu-line {
   width: 50px;
-  height: 10px;
+  height: 8px;
   background-color: #ffffff;
+}
+
+//Navigation Menu
+
+.side-nav {
+  height: 100vh;
+  width: 0;
+  background-color: #222222;
+  z-index: 500;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: $body-font;
 }
