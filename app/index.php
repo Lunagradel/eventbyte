@@ -14,22 +14,26 @@
     <div class="side-nav">
       <div class="close" id="closeNav">X</div>
       <div class="menu-points">
-        <a class="menu-point" href="index.php?id=frontpage">HOME<?php
+        <a class="menu-point" href="?id=frontpage">HOME<?php
             if ($_GET["id"]=="frontpage"){
                 echo '<span class="active-span">_</span>';
             }
             ?></a>
-        <a class="menu-point" href="index.php?id=events">EVENTS<?php
+        <a class="menu-point" href="?id=events">EVENTS<?php
             if ($_GET["id"]=="events"){
                 echo '<span class="active-span">_</span>';
             }
             ?></a>
-        <a class="menu-point" href="index.php?id=sponsor">SPONSORS<?php
+        <a class="menu-point" href="?id=sponsor">SPONSORS<?php
             if ($_GET["id"]=="sponsor"){
                 echo '<span class="active-span">_</span>';
             }
             ?></a>
-        <a class="menu-point">ABOUT</a>
+        <a class="menu-point" href="?id=about">ABOUT<?php
+            if ($_GET["id"]=="about"){
+                echo '<span class="active-span">_</span>';
+            }
+            ?></a>
       </div>
     </div>
     <div class="main">
@@ -45,14 +49,26 @@
       </div>
         <section id="content">
             <?php
-            if ($_GET["id"]=="frontpage"){
-                include 'frontpage.php';
-            }
-            if ($_GET["id"]=="events"){
-                include 'event-overview.php';
-            }
-            if ($_GET["id"]=="sponsor"){
-                include 'sponsor.php';
+            $page = $_GET["id"];
+            switch ($page){
+                case "frontpage":
+                    include 'frontpage.php';
+                    break;
+                case "events":
+                    include 'event-overview.php';
+                    break;
+                case "sponsor":
+                    include 'sponsor.php';
+                    break;
+                case "about":
+                    include 'about.php';
+                    break;
+                case "admin-login":
+                    include 'login.php';
+                    break;
+                default:
+                    include '404.php';
+                    break;
             }
             ?>
 

@@ -76,6 +76,6 @@
     </div>
   </div>
 </section>
-<section class="sponsor-contact">
+<a href="?id=sponsor" style="text-decoration: none"><section class="sponsor-contact">
   <p>Want to become a sponsor? Read more here!</p>
-</section>
+</section></a>

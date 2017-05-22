@@ -4,6 +4,8 @@
 @import "overview";
 @import "eventpop";
 @import "sponsor";
+@import "about";
+@import "admin";
 
 * {
   margin: 0px;
@@ -43,7 +45,13 @@ svg {
   top: 15px;
   cursor: pointer;
 }
-
+.not-found-404{
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
 .st2, .st3, .st4, .st5, .st6 {
   opacity: 0;
 }

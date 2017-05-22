@@ -25,10 +25,8 @@ function cursorActiveAnimation() {
 
 $(".sponsor-apply-btn").click(function () {
 
-    // $(".input-container").find("input").fadeOut(200);
-    // $(".input-container").prepend("<span class='sponsor-thx'>Thank you for your interest. You'll hear from us soon.<span>");
     $(".sponsor-thx").css("visibility", "visible");
     $(".input-container").slideUp(500);
     $(this).hide();
 
-})
+});

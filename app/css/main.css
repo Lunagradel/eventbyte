@@ -263,6 +263,7 @@
         padding-left: 10px; }
 
 .sponsor-page {
+  padding-top: 60px;
   font-family: "Lato", sans-serif; }
   .sponsor-page h2 {
     text-align: center;
@@ -318,12 +319,66 @@
         width: 600px;
         background-color: #C3461E;
         text-align: center;
-        padding: 10px; }
+        padding: 10px;
+        color: white; }
       @media only screen and (max-width: 736px) {
         .sponsor-page .sponsor-signup .input-container input {
           width: 100%; }
         .sponsor-page .sponsor-signup .input-container .sponsor-apply-btn {
           width: 100%; } }
+
+.about-main {
+  padding: 80px 20px;
+  color: white; }
+  .about-main h2 {
+    text-align: center;
+    padding-bottom: 20px; }
+  .about-main p {
+    font-family: "Lato", sans-serif; }
+
+.admin-login {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif; }
+  .admin-login h2 {
+    text-align: center;
+    color: white; }
+  .admin-login .login-btn {
+    width: 600px;
+    background-color: #C3461E;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    color: white; }
+  .admin-login input {
+    width: 600px;
+    border: none;
+    margin: 10px auto;
+    padding: 20px; }
+    .admin-login input::-webkit-input-placeholder {
+      /* WebKit, Blink, Edge */
+      color: black;
+      font-family: "Lato", sans-serif; }
+    .admin-login input:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: black;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    .admin-login input:-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: black;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    .admin-login input:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: black;
+      font-family: "Lato", sans-serif; }
+    .admin-login input:-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: black;
+      font-family: "Lato", sans-serif; }
 
 * {
   margin: 0px;
@@ -361,6 +416,13 @@ svg {
   margin-right: auto;
   top: 15px;
   cursor: pointer; }
+
+.not-found-404 {
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: white; }
 
 .st2, .st3, .st4, .st5, .st6 {
   opacity: 0; }
