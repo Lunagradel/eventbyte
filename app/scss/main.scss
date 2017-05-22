@@ -1,0 +1,79 @@
+@import "variables";
+@import "mixins";
+@import "sass-flexbox";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.gradient {
+  @include gradient($base-green, $cyan);
+}
+
+.top {
+  height: 60px;
+  width: 100%;
+  @include display-flex();
+  @include align-items(center);
+}
+
+//Logo
+svg {
+  width: 180px;
+}
+
+.st2, .st3, .st4, .st5, .st6 {
+  opacity: 0;
+}
+
+.st2 {
+  transition: 1.1s ease-in;
+}
+
+.st3 {
+  transition: 0.9s ease-in;
+}
+
+.st4 {
+  transition: 0.7s ease-in;
+}
+
+.st5 {
+  transition: 0.5s ease-in;
+}
+
+.st6 {
+  transition: 0.3s ease-in;
+}
+
+svg:hover .st2, svg:hover .st3, svg:hover .st4, svg:hover .st5, svg:hover .st6 {
+  opacity: 1;
+}
+
+svg:hover .logo {
+  opacity: 0;
+}
+
+.logo {
+  opacity: 1;
+  transition: 1.1s ease-out;
+}
+
+//Burger-menu
+
+.burger-menu {
+  height: 42px;
+  width: 50px;
+  @include display-flex();
+  @include flex-direction(column);
+  @include justify-content(space-between);
+  cursor: pointer;
+}
+
+.menu-line {
+  width: 50px;
+  height: 10px;
+  background-color: #ffffff;
+}

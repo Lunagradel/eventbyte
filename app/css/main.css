@@ -1,0 +1,138 @@
+/**
+* SassFlexbox
+* Manage Flexbox in Sass easily.
+*
+* @author     Samuel Marchal (zessx)
+* @version    0.1
+*/
+/*
+    Display
+ */
+.top, .burger-menu {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+/*
+    Flex direction
+ */
+.burger-menu {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+/*
+    Flex wrap
+ */
+/*
+    Flex flow
+ */
+/*
+    Order
+ */
+/*
+    Flex grow
+ */
+/*
+    Flex shrink
+ */
+/*
+    Flex basis
+ */
+/*
+    Flex
+ */
+/*
+    Justify content
+ */
+.burger-menu {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-flex-pack: justify;
+  -ms-flex-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+
+/*
+    Align items
+ */
+.top {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
+/*
+    Align self
+ */
+/*
+    Align content
+ */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.gradient {
+  background: -webkit-linear-gradient(left top, #1EC39A, #6ABEAB);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #1EC39A, #6ABEAB);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #1EC39A, #6ABEAB);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #1EC39A, #6ABEAB); }
+
+.top {
+  height: 60px;
+  width: 100%; }
+
+svg {
+  width: 180px; }
+
+.st2, .st3, .st4, .st5, .st6 {
+  opacity: 0; }
+
+.st2 {
+  transition: 1.1s ease-in; }
+
+.st3 {
+  transition: 0.9s ease-in; }
+
+.st4 {
+  transition: 0.7s ease-in; }
+
+.st5 {
+  transition: 0.5s ease-in; }
+
+.st6 {
+  transition: 0.3s ease-in; }
+
+svg:hover .st2, svg:hover .st3, svg:hover .st4, svg:hover .st5, svg:hover .st6 {
+  opacity: 1; }
+
+svg:hover .logo {
+  opacity: 0; }
+
+.logo {
+  opacity: 1;
+  transition: 1.1s ease-out; }
+
+.burger-menu {
+  height: 42px;
+  width: 50px;
+  cursor: pointer; }
+
+.menu-line {
+  width: 50px;
+  height: 10px;
+  background-color: #ffffff; }
+
+/*# sourceMappingURL=main.css.map */
