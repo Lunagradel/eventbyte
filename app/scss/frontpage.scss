@@ -6,3 +6,82 @@
   width: 100%;
   height: 100vh;
 }
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  @include display-flex();
+  @include flex-direction(column);
+  @include align-items(center);
+}
+
+.wtf-text {
+  font-family: $header-font;
+  color: #ffffff;
+  font-size: 100px;
+  width: 70%;
+  height: 650px;
+  @include display-flex();
+  @include flex-direction(column);
+  @include justify-content(center);
+}
+
+.join {
+  font-family: $header-font;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.sponsor-section {
+  width: 100%;
+  height: 500px;
+  background-color: $base-green;
+
+  p {
+    font-family: $header-font;
+    color: #ffffff;
+    font-size: 50px;
+    padding-left: 50px;
+
+  }
+}
+
+.sponsors-example {
+  width: 100%;
+  height: 400px;
+  @include display-flex();
+  @include flex-direction(column);
+  @include justify-content(space-around);
+  @include align-items(center);
+}
+
+.sponsor-row {
+  width: 100%;
+  height: 120px;
+  @include display-flex();
+  @include justify-content(space-around);
+}
+
+.second {
+  width: 70%;
+}
+
+.sponsor-img {
+  height: 100%;
+}
+
+.sponsor-contact {
+  width: 100%;
+  height: 50px;
+  background-color: $orange;
+  @include display-flex();
+  @include justify-content(center);
+  @include align-items(center);
+  cursor: pointer;
+
+  p {
+    font-family: $body-font;
+    color: #ffffff;
+    font-size: 20px;
+  }
+}

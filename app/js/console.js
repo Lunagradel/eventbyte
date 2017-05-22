@@ -1,7 +1,7 @@
 
 var captionLength = 0;
 var caption = 'Initial text in markup';
-var arrayOfCaption = ["Node.js","React.js","Agile","UX","Animation","Communication", "Tech"];
+var arrayOfCaption = ["node.js","react.js","agile","ux","animation","communication", "tech"];
 var captionEl = $('#caption');
 
 

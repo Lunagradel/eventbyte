@@ -8,9 +8,25 @@
 /*
     Display
  */
+.hero, .wtf-text, .sponsors-example, .sponsor-row, .sponsor-contact {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
 /*
     Flex direction
  */
+.hero, .wtf-text, .sponsors-example {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 /*
     Flex wrap
  */
@@ -35,9 +51,30 @@
 /*
     Justify content
  */
+.wtf-text, .sponsor-contact {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-flex-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.sponsors-example, .sponsor-row {
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+
 /*
     Align items
  */
+.hero, .sponsors-example, .sponsor-contact {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
 /*
     Align self
  */
@@ -47,5 +84,55 @@
 .frontpage-top {
   width: 100%;
   height: 100vh; }
+
+.hero {
+  width: 100%;
+  height: 100vh; }
+
+.wtf-text {
+  font-family: "Overpass Mono", monospace;
+  color: #ffffff;
+  font-size: 100px;
+  width: 70%;
+  height: 650px; }
+
+.join {
+  font-family: "Overpass Mono", monospace;
+  color: #ffffff;
+  font-size: 40px; }
+
+.sponsor-section {
+  width: 100%;
+  height: 500px;
+  background-color: #1EC39A; }
+  .sponsor-section p {
+    font-family: "Overpass Mono", monospace;
+    color: #ffffff;
+    font-size: 50px;
+    padding-left: 50px; }
+
+.sponsors-example {
+  width: 100%;
+  height: 400px; }
+
+.sponsor-row {
+  width: 100%;
+  height: 120px; }
+
+.second {
+  width: 70%; }
+
+.sponsor-img {
+  height: 100%; }
+
+.sponsor-contact {
+  width: 100%;
+  height: 50px;
+  background-color: #C3461E;
+  cursor: pointer; }
+  .sponsor-contact p {
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    font-size: 20px; }
 
 /*# sourceMappingURL=frontpage.css.map */

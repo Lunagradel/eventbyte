@@ -23,6 +23,8 @@ body {
   @include display-flex();
   @include align-items(center);
   padding-left: 10px;
+  z-index: 400;
+  position: fixed;
 }
 
 //Logo
