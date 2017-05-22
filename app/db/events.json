@@ -6,7 +6,7 @@
 	"date": "15-05-2017",
 	"time": "20:00",
 	"imgUrl": "../img/datguy.jpg",
-	"address": "Lygten 32",
+	"address": "Nørrebrogade 32",
 	"geoLocation": [20.00, 45.00],
 	"requirement": "Bring your laptop and touch the keyboard a whole lot"
 
@@ -15,6 +15,42 @@
 	"title": "Php with Pea Hage Phe",
 	"description": "Blah blah, and then the blah blah of blahing",
 	"tags": ["#programming", "#coding", "#Php"],
+	"date": "16-05-2017",
+	"time": "20:00",
+	"imgUrl": "www.google.com",
+	"address": "Lygten 32",
+	"geoLocation": [20.00, 45.00],
+	"requirement": "Bring your laptop and touch the keyboard a whole lot"
+
+}, {
+	"id": 3,
+	"title": "Intro course to Angular.js",
+	"description": "Blah blah, and then the blah blah of blahing",
+	"tags": ["#programming", "#coding", "#Javascript"],
+	"date": "16-05-2017",
+	"time": "20:00",
+	"imgUrl": "www.google.com",
+	"address": "Svendborg hjørnet 22",
+	"geoLocation": [20.00, 45.00],
+	"requirement": "Bring your laptop and touch the keyboard a whole lot"
+
+}, {
+	"id": 4,
+	"title": "Get truckin' with xCode",
+	"description": "Blah blah, and then the blah blah of blahing",
+	"tags": ["#programming", "#coding", "#Php"],
+	"date": "26-08-2017",
+	"time": "20:00",
+	"imgUrl": "www.google.com",
+	"address": "Café lummerfis",
+	"geoLocation": [20.00, 45.00],
+	"requirement": "Bring your laptop and touch the keyboard a whole lot"
+
+}, {
+	"id": 5,
+	"title": "Premiere Pro Greenhorns",
+	"description": "Are you a nubcake? Sure you are, come a join our greenhorn course introductionary visionary compositionation alienation friggin HECK!",
+	"tags": ["#media", "#MovieEditing", "#sMorc"],
 	"date": "16-05-2017",
 	"time": "20:00",
 	"imgUrl": "www.google.com",
