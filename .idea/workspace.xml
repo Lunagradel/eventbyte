@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61d8f7e0-1920-4914-aada-3df4d4ef6d4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/sponsor.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/sponsor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.sass-cache/6b731668b1d77011df723619441d0dc961fa7371/main.scssc" afterPath="$PROJECT_DIR$/app/.sass-cache/6b731668b1d77011df723619441d0dc961fa7371/main.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/eventpop.scssc" afterPath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/eventpop.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/frontpage.scssc" afterPath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/frontpage.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/main.scssc" afterPath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/overview.scssc" afterPath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/overview.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.sass-cache/6b731668b1d77011df723619441d0dc961fa7371/frontpage.scssc" afterPath="$PROJECT_DIR$/app/.sass-cache/6b731668b1d77011df723619441d0dc961fa7371/frontpage.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.sass-cache/6b731668b1d77011df723619441d0dc961fa7371/overview.scssc" afterPath="$PROJECT_DIR$/app/.sass-cache/6b731668b1d77011df723619441d0dc961fa7371/overview.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/eventpop.css" afterPath="$PROJECT_DIR$/app/css/eventpop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/frontpage.css" afterPath="$PROJECT_DIR$/app/css/frontpage.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/frontpage.css.map" afterPath="$PROJECT_DIR$/app/css/frontpage.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css.map" afterPath="$PROJECT_DIR$/app/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/db/events.json" afterPath="$PROJECT_DIR$/app/db/events.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.php" afterPath="$PROJECT_DIR$/app/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/main.js" afterPath="$PROJECT_DIR$/app/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/main.scss" afterPath="$PROJECT_DIR$/app/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/overview.css" afterPath="$PROJECT_DIR$/app/css/overview.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/event-overview.php" afterPath="$PROJECT_DIR$/app/event-overview.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/eventpop.scss" afterPath="$PROJECT_DIR$/app/scss/eventpop.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/frontpage.scss" afterPath="$PROJECT_DIR$/app/scss/frontpage.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/overview.scss" afterPath="$PROJECT_DIR$/app/scss/overview.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/sponsor.scss" afterPath="$PROJECT_DIR$/app/scss/sponsor.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/app/event-overview.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="23" />
+              <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -50,8 +57,11 @@
         <entry file="file://$PROJECT_DIR$/app/scss/overview.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
-              <caret line="112" column="8" lean-forward="false" selection-start-line="112" selection-start-column="8" selection-end-line="114" selection-end-column="9" />
-              <folding />
+              <caret line="105" column="8" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="107" selection-end-column="9" />
+              <folding>
+                <marker date="1495474199000" expanded="true" signature="2198:2611" ph="{...}" />
+                <marker date="1495474199000" expanded="true" signature="2198:2615" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +118,8 @@
       <file leaf-file-name="sponsor.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scss/sponsor.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -346,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19559000" />
+    <option name="totallyTimeSpent" value="19591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="979" extended-state="6" />
@@ -466,7 +476,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="87" column="18" lean-forward="false" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
-          <folding />
+          <folding>
+            <marker date="1495474199000" expanded="true" signature="2198:2611" ph="{...}" />
+            <marker date="1495474199000" expanded="true" signature="2198:2615" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -521,8 +534,8 @@
         <state relative-caret-position="-28">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1495465542000" expanded="true" signature="2341:2346" ph="{...}" />
-            <marker date="1495465542000" expanded="true" signature="2341:2348" ph="{...}" />
+            <marker date="1495474199000" expanded="true" signature="2254:2259" ph="{...}" />
+            <marker date="1495474199000" expanded="true" signature="2254:2261" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -553,7 +566,7 @@
     <entry file="file://$PROJECT_DIR$/app/event-overview.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="23" />
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -577,8 +590,11 @@
     <entry file="file://$PROJECT_DIR$/app/scss/overview.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="112" column="8" lean-forward="false" selection-start-line="112" selection-start-column="8" selection-end-line="114" selection-end-column="9" />
-          <folding />
+          <caret line="105" column="8" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="107" selection-end-column="9" />
+          <folding>
+            <marker date="1495474199000" expanded="true" signature="2198:2611" ph="{...}" />
+            <marker date="1495474199000" expanded="true" signature="2198:2615" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -626,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/sponsor.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
       </provider>
