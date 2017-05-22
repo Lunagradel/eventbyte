@@ -99,7 +99,7 @@
         .event-item_date:after{
           content: ",";
         }
-        @include bp-mobile() {
+        @include bp-mobile() { 
           width: 50%;
         }
       }

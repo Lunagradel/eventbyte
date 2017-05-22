@@ -34,6 +34,7 @@ svg {
   margin-left: auto;
   margin-right: auto;
   top: 15px;
+  cursor: pointer;
 }
 
 .st2, .st3, .st4, .st5, .st6 {
@@ -101,6 +102,8 @@ svg:hover .logo {
   top: 0;
   left: 0;
   transition: 0.4s;
+  @include display-flex();
+  @include justify-content(center);
 }
 
 .close {
@@ -112,4 +115,24 @@ svg:hover .logo {
   cursor: pointer;
   color: #ffffff;
   font-family: $body-font;
+}
+
+.menu-points {
+  width: 60%;
+  height: 350px;
+  @include display-flex();
+  @include flex-direction(column);
+  @include justify-content(space-around);
+  margin-top: 100px;
+
+  a {
+    width: 20%;
+    height: 50px;
+    opacity: 0;
+    transition: 0.1s;
+    color: $base-green;
+    font-family: $header-font;
+    font-size: 50px;
+    cursor: pointer;
+  }
 }

@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61d8f7e0-1920-4914-aada-3df4d4ef6d4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/overview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/overview.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/main.scssc" afterPath="$PROJECT_DIR$/app/.sass-cache/4fbfc6bde8cbce1750200bd49645613fcf7b3a80/main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.sass-cache/6b731668b1d77011df723619441d0dc961fa7371/main.scssc" afterPath="$PROJECT_DIR$/app/.sass-cache/6b731668b1d77011df723619441d0dc961fa7371/main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css.map" afterPath="$PROJECT_DIR$/app/css/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/event-overview.php" afterPath="$PROJECT_DIR$/app/event-overview.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/overview.css" afterPath="$PROJECT_DIR$/app/css/overview.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.php" afterPath="$PROJECT_DIR$/app/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/mixins.scss" afterPath="$PROJECT_DIR$/app/scss/mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/main.scss" afterPath="$PROJECT_DIR$/app/scss/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/overview.scss" afterPath="$PROJECT_DIR$/app/scss/overview.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/app/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+              <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -57,8 +58,8 @@
       <file leaf-file-name="overview.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scss/overview.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="100" column="9" lean-forward="false" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+            <state relative-caret-position="320">
+              <caret line="101" column="31" lean-forward="false" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -89,7 +90,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-              <folding />
+              <folding>
+                <marker date="1495458678000" expanded="true" signature="1956:1958" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -291,12 +294,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495447251740</updated>
-      <workItem from="1495447253056" duration="9677000" />
+      <workItem from="1495447253056" duration="9742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9677000" />
+    <option name="totallyTimeSpent" value="9742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="979" extended-state="6" />
@@ -383,7 +386,7 @@
     <entry file="file://$PROJECT_DIR$/app/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -408,7 +411,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
+          <folding>
+            <marker date="1495458678000" expanded="true" signature="1956:1958" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -422,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/overview.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="100" column="9" lean-forward="false" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+        <state relative-caret-position="320">
+          <caret line="101" column="31" lean-forward="false" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
           <folding />
         </state>
       </provider>
