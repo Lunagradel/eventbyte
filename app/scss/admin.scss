@@ -1,0 +1,47 @@
+.admin-login{
+  padding-top: 60px;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  font-family: $body-font;
+  h2{
+    text-align: center;
+    color: white;
+  }
+  .login-btn{
+    width: 600px;
+    background-color: $orange;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    color: white;
+  }
+  input{
+    width: 600px;
+    border: none;
+    margin: 10px auto;
+    padding: 20px;
+    &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color: black;
+      font-family: $body-font;
+    }
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color: black;
+      font-family: $body-font;
+      opacity: 1;
+    }
+    &:-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: black;
+      font-family: $body-font;
+      opacity: 1;
+    }
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: black;
+      font-family: $body-font;
+    }
+    &:-ms-input-placeholder { /* Microsoft Edge */
+      color: black;
+      font-family: $body-font;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 .sponsor-page{
 
   .sponsor_top{
+    padding-top: 60px;
     color: white;
     font-family: $header-font;
     height: 180px;
@@ -74,6 +75,7 @@
         background-color: $orange;
         text-align: center;
         padding: 10px;
+        color: white;
       }
       @include bp-mobile() {
         input{

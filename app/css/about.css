@@ -1,21 +1,18 @@
 /*
-Error: Undefined variable: "$header-font".
-        on line 6 of scss/sponsor.scss
+Error: Undefined variable: "$body-font".
+        on line 9 of scss/about.scss
 
-1: .sponsor-page{
-2: 
-3:   .sponsor_top{
-4:     padding-top: 60px;
-5:     color: white;
-6:     font-family: $header-font;
-7:     height: 180px;
-8:     @include display-flex();
-9:     @include align-items(flex-end);
-10:     @include justify-content(center);
-11: 
+4:   h2{
+5:     text-align: center;
+6:     padding-bottom: 20px;
+7:   }
+8:   p{
+9:     font-family: $body-font;
+10:   }
+11: }
 
 Backtrace:
-scss/sponsor.scss:6
+scss/about.scss:9
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -78,4 +75,4 @@ scss/sponsor.scss:6
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$header-font\".\A         on line 6 of scss/sponsor.scss\A \A 1: .sponsor-page{\A 2: \A 3:   .sponsor_top{\A 4:     padding-top: 60px;\A 5:     color: white;\A 6:     font-family: $header-font;\A 7:     height: 180px;\A 8:     @include display-flex();\A 9:     @include align-items(flex-end);\A 10:     @include justify-content(center);\A 11: "; }
+  content: "Error: Undefined variable: \"$body-font\".\A         on line 9 of scss/about.scss\A \A 4:   h2{\A 5:     text-align: center;\A 6:     padding-bottom: 20px;\A 7:   }\A 8:   p{\A 9:     font-family: $body-font;\A 10:   }\A 11: }"; }
