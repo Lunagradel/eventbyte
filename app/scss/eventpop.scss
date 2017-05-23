@@ -7,6 +7,7 @@
   @include justify-content(center);
   @include align-items(center);
   overflow: scroll;
+  display: none;
 }
 
 .event-pop {

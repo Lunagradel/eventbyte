@@ -1,20 +1,10 @@
 
-$( document ).ready( function() {
-    $(".canvas").hide();
-});
-
-$(".regular-button").click(function () {
-    switch ($(this).attr("data-canvas")) {
-        case "register":
-            showCanvas("register")
-            break;
-        case "login":
-            showCanvas("LoginContainer")
-            break;
-        case "account":
-            showCanvas("accountContainer")
-            break;
-    }
+// $( document ).ready( function() {
+//     $(".canvas").hide();
+// });
+$('body').on('click', 'div.event-item', function() {
+    var id = $(this).attr("data-id");
+    showCanvas(id);
 });
 
 $(".canvas").click( function(e) {
@@ -28,13 +18,14 @@ $(".canvas").click( function(e) {
 });
 
 
-function showCanvas(canvas) {
-    var element = "#"+canvas,
-        child = $(element).children(":first");
-    $(element).css("top",0).fadeIn(100, function () {
-        $(child).animate({
-            top: "20%"
-        }, 100, "swing", function() {
-        });
-    });
-};
+function showCanvas(id) {
+    getEvents(id);
+    $(".canvas").slideDown(200).css("display","inline-flex");
+}
+
+
+// $('body').on('click', 'div.event-item', function() {
+//     var eventId = $(this).attr("data-id");
+//     console.log(eventId);
+//     getEvents(eventId);
+// });

@@ -32,7 +32,21 @@ function getEvents(destination) {
             var items = [];
             $.each( data, function( key, val ) {
                 if (destination == val.id){
-                    console.log(val.title);
+                    $(".pop-name").text(val.title);
+                    $(".pop-date").text(val.date);
+                    $(".pop-time").text(val.time);
+                    $(".pop-address").text(val.address);
+                    $(".pop-req").text(val.requirement);
+                    $(".pop-desc").text(val.description);
+                    $(".tags").empty();
+                    $.each(val.tags, function (key, tag) {
+                        var tagMarkUp = '<p class="tag">'+tag+'</p>'
+                        $(".tags").append(tagMarkUp);
+                    });
+                    var mapUrl = $("#googleMap").attr("src").toString();
+                    var newMapUrl = mapUrl.replace("'+YOUR_LAT+'", val.geoLocation[0]);
+                    newMapUrl = newMapUrl.replace("'+YOUR_LON+'", val.geoLocation[1]);
+                    document.getElementById("googleMap").src = newMapUrl;
                 }
             })
         })
@@ -48,8 +62,4 @@ var eventTemplate = "<div data-id='{{event-id}}' class='event-item'>\
                 </div>";
 
 
-$('body').on('click', 'div.event-item', function() {
-    var eventId = $(this).attr("data-id");
-    console.log(eventId);
-    getEvents(eventId);
-});
+
