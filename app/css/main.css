@@ -558,15 +558,21 @@ svg:hover .logo {
   width: 60%;
   height: 350px;
   margin-top: 100px; }
+  @media only screen and (max-width: 736px) {
+    .menu-points {
+      height: 250px; } }
   .menu-points a {
     width: 20%;
     height: 50px;
-    opacity: 0;
+    display: none;
     transition: 0.1s;
     color: #1EC39A;
     font-family: "Overpass Mono", monospace;
     font-size: 50px;
     cursor: pointer;
     text-decoration: none; }
+    @media only screen and (max-width: 736px) {
+      .menu-points a {
+        font-size: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
