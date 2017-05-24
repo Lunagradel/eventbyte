@@ -143,13 +143,49 @@
       border: solid 2px #09765B;
       padding: 2px;
       flex-grow: 1;
-      margin: 0 30px; }
+      margin: 0 30px;
+      background-color: #F1FEF9;
+      font-family: "Lato", sans-serif;
+      color: #09765B;
+      font-size: 17px;
+      padding-left: 5px; }
+      #content .overview .overview_filters .overview_filters-selector:focus {
+        outline: none; }
     #content .overview .overview_filters input {
       border: solid 2px #09765B;
       padding: 2px;
       flex-grow: 1;
-      margin: 0 30px; }
+      margin: 0 30px;
+      background-color: #F1FEF9;
+      font-family: "Lato", sans-serif;
+      color: #09765B;
+      font-size: 17px;
+      padding-left: 5px; }
       #content .overview .overview_filters input[type="text"] {
+        font-family: "Lato", sans-serif; }
+      #content .overview .overview_filters input:focus {
+        outline: none; }
+      #content .overview .overview_filters input::-webkit-input-placeholder {
+        /* WebKit, Blink, Edge */
+        color: #09765B;
+        font-family: "Lato", sans-serif; }
+      #content .overview .overview_filters input:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #09765B;
+        font-family: "Lato", sans-serif;
+        opacity: 1; }
+      #content .overview .overview_filters input:-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #09765B;
+        font-family: "Lato", sans-serif;
+        opacity: 1; }
+      #content .overview .overview_filters input:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #09765B;
+        font-family: "Lato", sans-serif; }
+      #content .overview .overview_filters input:-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #09765B;
         font-family: "Lato", sans-serif; }
   #content .overview .overview-content {
     color: #09765B;
