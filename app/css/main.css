@@ -714,6 +714,16 @@
       color: black;
       font-family: "Lato", sans-serif; }
 
+#editEvent .fa-spinner {
+  -moz-transition: all 1.5s linear;
+  -webkit-transition: all 1.5s linear;
+  transition: all 1.5s linear; }
+  #editEvent .fa-spinner.down {
+    -ms-transform: rotate(780deg);
+    -moz-transform: rotate(780deg);
+    -webkit-transform: rotate(780deg);
+    transform: rotate(780deg); }
+
 .create {
   width: 100%;
   height: 100%; }

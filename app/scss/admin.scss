@@ -58,3 +58,16 @@
   }
 
 }
+#editEvent{
+  .fa-spinner{
+    -moz-transition: all 1.5s linear;
+    -webkit-transition: all 1.5s linear;
+    transition: all 1.5s linear;
+    &.down{
+      -ms-transform:rotate(780deg);
+      -moz-transform:rotate(780deg);
+      -webkit-transform:rotate(780deg);
+      transform:rotate(780deg);
+    }
+  }
+}

@@ -46,11 +46,11 @@ function getEvents(destination) {
                         var tagMarkUp = '<p class="tag">'+tag+'</p>';
                         $(".tags").append(tagMarkUp);
                     });
-                    var mapUrl = $("#googleMap").attr("src").toString();
-                    // var mapUrl = 'http://maps.google.com/maps?q='+val.geoLocation[0]+','+val.geoLocation[1]+'&hl=es;z=14&amp;output=embed';
-                    var newMapUrl = mapUrl.replace("'+YOUR_LAT+'", val.geoLocation[0]);
-                    newMapUrl = newMapUrl.replace("'+YOUR_LON+'", val.geoLocation[1]);
-                    document.getElementById("googleMap").src = newMapUrl;
+                    // var mapUrl = $("#googleMap").attr("src").toString();
+                    // // var mapUrl = 'http://maps.google.com/maps?q='+val.geoLocation[0]+','+val.geoLocation[1]+'&hl=es;z=14&amp;output=embed';
+                    // var newMapUrl = mapUrl.replace("'+YOUR_LAT+'", val.geoLocation[0]);
+                    // newMapUrl = newMapUrl.replace("'+YOUR_LON+'", val.geoLocation[1]);
+                    // document.getElementById("googleMap").src = newMapUrl;
                 }
             })
         })
