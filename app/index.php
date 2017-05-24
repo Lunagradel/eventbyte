@@ -49,7 +49,6 @@
             <div class="menu-line"></div>
           </div>
           <a href="index.php?id=frontpage"><?php require_once 'svg/logo.php' ?></a>
-
       </div>
         <section id="content">
             <?php
