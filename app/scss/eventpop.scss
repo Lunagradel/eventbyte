@@ -15,7 +15,12 @@
   height: auto;
   margin: 20px 0px 20px 0px;
   background-color: $light-green;
-  overflow: scroll; 
+  overflow: scroll;
+  position: relative;
+
+  @include bp-mobile(){
+    width: 95%;
+  };
 
   .close-pop {
     // position: relative;
@@ -34,16 +39,24 @@
       rgba(30, 195, 154, 0.5),
       rgba(30, 195, 154, 0.5)
     ), center center no-repeat url("../img/datguy.jpg");
+      display: flex;
 
   }
   .pop-name{
     color: white;
+    height: 55px;
     background-color: $dark-green;
     font-family: $header-font;
     display:inline-block;
     font-size: 40px;
-    margin-top: 270px;
+    // margin-top: 270px;
     margin-left: 15px;
+    margin-bottom: 10px;
+    @include align-self(flex-end);
+    @include bp-mobile(){
+      font-size: 20px;
+      height: 35px;
+    };
   }
 
   .pop-important-info {
@@ -57,7 +70,7 @@
 
     .information {
       height: 100%;
-      width: 35%;
+      width: 45%;
       @include display-flex();
       @include align-items(center);
       @include justify-content(space-between);
@@ -68,13 +81,29 @@
           font-family: $header-font;
           color: $dark-green;
           font-size: 20px;
+          @include bp-mobile(){
+            font-size: 17px;
+          };
         }
         .info-body {
           font-family: $body-font;
           color: #ffffff;
           font-size: 20px;
+          @include bp-mobile(){
+            font-size: 17px;
+          };
         }
+
+
       }
+
+      @include bp-tablet(){
+        width: 60%;
+      };
+
+      @include bp-mobile(){
+        width: 100%;
+      };
     }
     .sign-up-button {
       width: 200px;
@@ -90,7 +119,16 @@
         font-family: $body-font;
         font-size: 20px;
       }
+
+      @include bp-mobile(){
+        margin-bottom: 10px;
+        width: 100%;
+      };
     }
+    @include bp-mobile(){
+      flex-direction: column;
+      height: 130px;
+    };
   }
 
   .hidden {display: none}
@@ -104,11 +142,15 @@
     @include align-items(center);
 
     .sign-up {
-      width: 70%;
+      width: 80%;
       height: 100%;
       @include display-flex();
       @include justify-content(space-between);
       @include align-items(center);
+
+      @include bp-tablet(){
+        width: 90%;
+      };
 
       input {
         width: 200px;
@@ -139,6 +181,14 @@
           color: black;
           font-family: $body-font;
         }
+
+        @include bp-tablet(){
+          width: 150px;
+        };
+
+        @include bp-mobile(){
+          width: 100%;
+        };
       }
 
       .submit-button {
@@ -155,14 +205,30 @@
           font-family: $body-font;
           font-size: 15px;
         }
+        @include bp-tablet(){
+          width: 150px;
+        };
+
+        @include bp-mobile(){
+          width: 100%;
+        };
       }
+
+      @include bp-mobile(){
+        flex-direction: column;
+        justify-content: space-around;
+      };
     }
     .sign-up-thx {
       display: none;
       color: #ffffff;
       font-family: $body-font;
       font-size: 15px;
+      padding: 10px;
     }
+    @include bp-mobile(){
+      height: 110px;
+    };
   }
 
   .pop-information {
@@ -216,7 +282,19 @@
         padding-left: 10px;
 
       }
+
+      @include bp-mobile(){
+        flex-direction: column;
+        align-items: flex-start;
+      };
     }
+
+    @include bp-mobile(){
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      padding: 5px;
+    };
   }
 
   .map {

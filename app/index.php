@@ -88,5 +88,6 @@
   <script src="js/overview.js"></script>
   <script src="js/overlay.js"></script>
   <script src="js/create.js"></script>
+  <script src="js/admin.js"></script>
   </body>
 </html>

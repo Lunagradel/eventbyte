@@ -100,6 +100,12 @@
   -moz-align-self: flex-start;
   align-self: flex-start; }
 
+.event-pop .pop-name {
+  -ms-flex-item-align: end;
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  align-self: flex-end; }
+
 /*
     Align content
  */
@@ -204,6 +210,12 @@
   -webkit-align-self: flex-start;
   -moz-align-self: flex-start;
   align-self: flex-start; }
+
+.event-pop .pop-name {
+  -ms-flex-item-align: end;
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  align-self: flex-end; }
 
 /*
     Align content
@@ -317,6 +329,16 @@
       background-color: #09765B;
       font-family: "Overpass Mono", monospace;
       display: inline-block; }
+    #content .overview .overview-content .event-item {
+      position: relative; }
+      #content .overview .overview-content .event-item .event-item_admin {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; }
   #content .overview .overview-content.list .event-item {
     padding: 10px;
     border-top: solid 1px;
@@ -366,7 +388,11 @@
   height: auto;
   margin: 20px 0px 20px 0px;
   background-color: #F1FEF9;
-  overflow: scroll; }
+  overflow: scroll;
+  position: relative; }
+  @media only screen and (max-width: 736px) {
+    .event-pop {
+      width: 95%; } }
   .event-pop .close-pop {
     font-size: 36px;
     cursor: pointer;
@@ -375,15 +401,21 @@
   .event-pop .pop-top {
     width: 100%;
     height: 350px;
-    background: linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url("../img/datguy.jpg"); }
+    background: linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url("../img/datguy.jpg");
+    display: flex; }
   .event-pop .pop-name {
     color: white;
+    height: 55px;
     background-color: #09765B;
     font-family: "Overpass Mono", monospace;
     display: inline-block;
     font-size: 40px;
-    margin-top: 270px;
-    margin-left: 15px; }
+    margin-left: 15px;
+    margin-bottom: 10px; }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-name {
+        font-size: 20px;
+        height: 35px; } }
   .event-pop .pop-important-info {
     width: 100%;
     height: 70px;
@@ -391,15 +423,27 @@
     padding: 0px 15px 0px 15px; }
     .event-pop .pop-important-info .information {
       height: 100%;
-      width: 35%; }
+      width: 45%; }
       .event-pop .pop-important-info .information .info .info-header {
         font-family: "Overpass Mono", monospace;
         color: #09765B;
         font-size: 20px; }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-important-info .information .info .info-header {
+            font-size: 17px; } }
       .event-pop .pop-important-info .information .info .info-body {
         font-family: "Lato", sans-serif;
         color: #ffffff;
         font-size: 20px; }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-important-info .information .info .info-body {
+            font-size: 17px; } }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .event-pop .pop-important-info .information {
+          width: 60%; } }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-important-info .information {
+          width: 100%; } }
     .event-pop .pop-important-info .sign-up-button {
       width: 200px;
       height: 40px;
@@ -409,6 +453,14 @@
         color: #ffffff;
         font-family: "Lato", sans-serif;
         font-size: 20px; }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-important-info .sign-up-button {
+          margin-bottom: 10px;
+          width: 100%; } }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-important-info {
+        flex-direction: column;
+        height: 130px; } }
   .event-pop .hidden {
     display: none; }
   .event-pop .pop-sign-up {
@@ -416,8 +468,11 @@
     height: 50px;
     background-color: #09765B; }
     .event-pop .pop-sign-up .sign-up {
-      width: 70%;
+      width: 80%;
       height: 100%; }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .event-pop .pop-sign-up .sign-up {
+          width: 90%; } }
       .event-pop .pop-sign-up .sign-up input {
         width: 200px;
         height: 25px;
@@ -447,6 +502,12 @@
           /* Microsoft Edge */
           color: black;
           font-family: "Lato", sans-serif; }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          .event-pop .pop-sign-up .sign-up input {
+            width: 150px; } }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-sign-up .sign-up input {
+            width: 100%; } }
       .event-pop .pop-sign-up .sign-up .submit-button {
         width: 200px;
         height: 25px;
@@ -456,11 +517,25 @@
           color: #ffffff;
           font-family: "Lato", sans-serif;
           font-size: 15px; }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          .event-pop .pop-sign-up .sign-up .submit-button {
+            width: 150px; } }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-sign-up .sign-up .submit-button {
+            width: 100%; } }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-sign-up .sign-up {
+          flex-direction: column;
+          justify-content: space-around; } }
     .event-pop .pop-sign-up .sign-up-thx {
       display: none;
       color: #ffffff;
       font-family: "Lato", sans-serif;
-      font-size: 15px; }
+      font-size: 15px;
+      padding: 10px; }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-sign-up {
+        height: 110px; } }
   .event-pop .pop-information {
     width: 100%;
     height: auto; }
@@ -494,6 +569,16 @@
         font-family: "Lato", sans-serif;
         font-size: 25px;
         padding-left: 10px; }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-tags .tags {
+          flex-direction: column;
+          align-items: flex-start; } }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-tags {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 5px; } }
   .event-pop .map iframe {
     width: 100%; }
 
@@ -590,7 +675,17 @@
     text-align: center;
     padding: 10px;
     margin: 10px auto;
-    color: white; }
+    color: white;
+    cursor: pointer; }
+    .admin-login .login-btn .fa-spinner {
+      -moz-transition: all 1.5s linear;
+      -webkit-transition: all 1.5s linear;
+      transition: all 1.5s linear; }
+      .admin-login .login-btn .fa-spinner.down {
+        -ms-transform: rotate(780deg);
+        -moz-transform: rotate(780deg);
+        -webkit-transform: rotate(780deg);
+        transform: rotate(780deg); }
   .admin-login input {
     width: 600px;
     border: none;

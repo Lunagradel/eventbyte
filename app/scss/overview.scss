@@ -139,6 +139,18 @@
         font-family: $header-font;
         display:inline-block;
       }
+      .event-item{
+        position: relative;
+        .event-item_admin{
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+        }
+      }
     }
     .overview-content.list{
       .event-item{
