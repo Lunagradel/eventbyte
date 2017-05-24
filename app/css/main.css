@@ -344,7 +344,8 @@
       flex-direction: column;
       align-items: flex-end; }
       #content .overview .overview-content.list .event-item .event-item_admin span {
-        cursor: pointer; }
+        cursor: pointer;
+        color: #C3461E; }
     #content .overview .overview-content.list .event-item div {
       margin-top: 5px;
       max-width: 90%; }
