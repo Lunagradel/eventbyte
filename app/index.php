@@ -15,7 +15,7 @@
 
     <div class="side-nav">
       <div class="close" id="closeNav">X</div>
-      <div class="menu-points">
+      <div class="menu-points" id="notAdminMenu">
         <a class="menu-point" href="?id=frontpage">HOME<?php
             if ($_GET["id"]=="frontpage"){
                 echo '<span class="active-span">_</span>';
@@ -31,20 +31,29 @@
                 echo '<span class="active-span">_</span>';
             }
             ?></a>
-        <a class="menu-point admin-menu-point" href="?id=create">CREATE<?php
-            if ($_GET["id"]=="create"){
-                echo '<span class="active-span">_</span>';
-            }
-            ?></a>
-        <a class="menu-point not-admin-menu-point" href="?id=about">ABOUT<?php
+        <a class="menu-point" href="?id=about">ABOUT<?php
             if ($_GET["id"]=="about"){
                 echo '<span class="active-span">_</span>';
             }
             ?></a>
-        <a class="menu-point admin-menu-point">LOG OUT</a>
-
-
-
+      </div>
+      <div class="menu-points" id="adminMenu">
+        <a class="menu-point" href="?id=events">EVENTS<?php
+            if ($_GET["id"]=="events"){
+                echo '<span class="active-span">_</span>';
+            }
+            ?></a>
+        <a class="menu-point" href="?id=sponsor">SPONSORS<?php
+            if ($_GET["id"]=="sponsor"){
+                echo '<span class="active-span">_</span>';
+            }
+            ?></a>
+        <a class="menu-point" href="?id=create">CREATE<?php
+            if ($_GET["id"]=="create"){
+                echo '<span class="active-span">_</span>';
+            }
+            ?></a>
+        <a class="menu-point" id="logOutBtn">LOG OUT</a>
       </div>
     </div>
     <div class="main">

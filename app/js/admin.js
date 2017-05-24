@@ -20,3 +20,10 @@ lgnBtn.click(
     }
 );
 
+$(document).on("click","#logOutBtn", function(){
+    if (localStorage){
+      localStorage.removeItem("loggedIn");
+      window.location.href = "?id=frontpage"
+    }
+
+});

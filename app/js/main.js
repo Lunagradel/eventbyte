@@ -52,8 +52,12 @@ $(document).on("click","#showSignUp", function(){
 
 $(document).ready(function(){
   if (localStorage.loggedIn == "true"){
-    console.log("x");
-  } else {
-    
+    console.log("waht");
+    $("#adminMenu").show();
+    $("#notAdminMenu").hide();
+  }
+  if (!localStorage.loggedIn) {
+    $("#adminMenu").hide();
+    $("#notAdminMenu").show();
   }
 });
