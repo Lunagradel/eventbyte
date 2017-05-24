@@ -20,13 +20,3 @@ lgnBtn.click(
     }
 );
 
-btnDelete.click(
-    function () {
-        console.log("Delete")
-    }
-);
-btnEdit.click(
-    function () {
-        console.log("Edit")
-    }
-);

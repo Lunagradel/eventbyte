@@ -3,12 +3,15 @@ var captionLength = 0;
 var caption = 'Initial text in markup';
 var arrayOfCaption = ["node.js","react.js","agile","ux","animation","communication", "tech"];
 var captionEl = $('#caption');
+var captionElExists = document.getElementById("caption");
+
 
 
 $(document).ready(function() {
-    setInterval ('cursorAnimation()', 600);
-    arrayLoop();
-
+    if(captionElExists){
+        setInterval ('cursorAnimation()', 600);
+        arrayLoop();
+    }
 });
 
 var i = 0;
