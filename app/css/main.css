@@ -203,6 +203,11 @@
   margin: 20px 0px 20px 0px;
   background-color: #F1FEF9;
   overflow: scroll; }
+  .event-pop .close-pop {
+    font-size: 36px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Lato", sans-serif; }
   .event-pop .pop-top {
     width: 100%;
     height: 350px;
