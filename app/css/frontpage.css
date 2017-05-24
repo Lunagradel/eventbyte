@@ -125,8 +125,8 @@
   .sponsor-section p {
     font-family: "Overpass Mono", monospace;
     color: #ffffff;
-    font-size: 50px;
-    padding-left: 50px; }
+    font-size: 40px;
+    padding-left: 30px; }
   @media only screen and (max-width: 736px) {
     .sponsor-section {
       height: 300px; } }

@@ -49,3 +49,11 @@ $(document).on("click", "#signUpBtn", function(){
 $(document).on("click","#showSignUp", function(){
   $(".pop-sign-up").toggleClass("hidden");
 });
+
+$(document).ready(function(){
+  if (localStorage.loggedIn == "true"){
+    console.log("x");
+  } else {
+    
+  }
+});

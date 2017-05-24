@@ -1,18 +1,21 @@
 /*
-Error: Undefined variable: "$body-font".
-        on line 9 of scss/about.scss
+Error: Undefined variable: "$dark-green".
+        on line 10 of scss/about.scss
 
-4:   h2{
-5:     text-align: center;
-6:     padding-bottom: 20px;
-7:   }
-8:   p{
-9:     font-family: $body-font;
-10:   }
-11: }
+5: 
+6:   h2{
+7:     text-align: center;
+8:     padding-bottom: 20px;
+9:     font-size: 50px;
+10:     color: $dark-green;
+11:   }
+12:   p{
+13:     font-family: $body-font;
+14:     font-size: 20px;
+15:     padding: 10px;
 
 Backtrace:
-scss/about.scss:9
+scss/about.scss:10
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -75,4 +78,4 @@ scss/about.scss:9
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$body-font\".\A         on line 9 of scss/about.scss\A \A 4:   h2{\A 5:     text-align: center;\A 6:     padding-bottom: 20px;\A 7:   }\A 8:   p{\A 9:     font-family: $body-font;\A 10:   }\A 11: }"; }
+  content: "Error: Undefined variable: \"$dark-green\".\A         on line 10 of scss/about.scss\A \A 5: \A 6:   h2{\A 7:     text-align: center;\A 8:     padding-bottom: 20px;\A 9:     font-size: 50px;\A 10:     color: $dark-green;\A 11:   }\A 12:   p{\A 13:     font-family: $body-font;\A 14:     font-size: 20px;\A 15:     padding: 10px;"; }

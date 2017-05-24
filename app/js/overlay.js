@@ -37,6 +37,14 @@ $(".canvas").click( function(e) {
     }
 });
 
+$(document).on("click", "#closePop", function(){
+  $(this).parent(":first").animate({
+      top: "100%"
+  }, 100, "swing", function () {
+      $(this).parent().hide();
+  });
+});
+
 
 function showCanvas(id) {
     getEvents(id);
@@ -49,3 +57,4 @@ if (editedEvent == 1 ){
     localStorage.setItem("editedEvent", 0);
     showCanvas(eventToEdit);
 }
+

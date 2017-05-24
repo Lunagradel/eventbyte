@@ -31,7 +31,8 @@ h1, h2, h3, h4, h5{
   width: 100%;
   @include display-flex();
   @include align-items(center);
-  padding-left: 10px;
+  @include justify-content(space-between);
+  padding: 0px 10px 0px 10px;
   z-index: 400;
   position: fixed;
 }
@@ -112,6 +113,26 @@ svg:hover .logo {
   background-color: #ffffff;
 }
 
+.log-out-button {
+  width: 200px;
+  height: 36px;
+  background-color: $orange;
+  @include display-flex();
+  @include justify-content(center);
+  @include align-items(center);
+  p {
+    color: #ffffff;
+    font-family: $body-font;
+    font-size: 20px;
+  }
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+.log-out-button:hover {
+  background-color: $red;
+
+}
+
 //Navigation Menu
 
 .side-nav {
@@ -151,7 +172,6 @@ svg:hover .logo {
   };
 
   a {
-    width: 20%;
     height: 50px;
     display: none;
     transition: 0.1s;

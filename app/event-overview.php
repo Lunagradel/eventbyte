@@ -4,9 +4,8 @@ $pageTitle = "Events"
 
 <div class="event-pop-wrapper canvas">
     <div class="event-pop">
-
+      <div class="close" id="closePop">X</div>
       <section class="pop-top">
-        <div class="close" id="closePop">X</div>
         <p class="pop-name">eventname_</p>
       </section>
       <section class="pop-important-info">
