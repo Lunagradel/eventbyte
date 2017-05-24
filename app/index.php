@@ -69,12 +69,14 @@
                 case "admin":
                     include 'login.php';
                     break;
+                case "create":
+                    include 'create.php';
+                    break;
                 default:
                     include '404.php';
                     break;
             }
             ?>
-
         </section>
     </div>
 
@@ -85,5 +87,6 @@
   <script src="js/main.js"></script>
   <script src="js/overview.js"></script>
   <script src="js/overlay.js"></script>
+  <script src="js/create.js"></script>
   </body>
 </html>
