@@ -19,7 +19,6 @@ lgnBtn.click(
     }
 );
 
-
 crtBtn.click(
     function () {
         crtBtn.html(spinner);
@@ -35,3 +34,12 @@ crtBtn.click(
         }, 1);
     }
 );
+
+$(document).on("click","#logOutBtn", function(){
+    if (localStorage){
+      localStorage.removeItem("loggedIn");
+      window.location.href = "?id=frontpage"
+    }
+
+});
+
