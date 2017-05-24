@@ -5,7 +5,7 @@
 	"tags": ["#programming", "#coding", "#JSON"],
 	"date": "15-05-2017",
 	"time": "20:00",
-	"imgUrl": "../img/datguy.jpg",
+	"imgUrl": "./img/event1.jpeg",
 	"address": "Nørrebrogade 32",
 	"geoLocation": [55.672407, 12.521400],
 	"requirement": "Bring your laptop and touch the keyboard a whole lot"
@@ -17,7 +17,7 @@
 	"tags": ["#programming", "#coding", "#Php"],
 	"date": "16-05-2017",
 	"time": "20:00",
-	"imgUrl": "www.google.com",
+	"imgUrl": "./img/event2.jpeg",
 	"address": "Lygten 32",
 	"geoLocation": [55.699116, 12.553973],
 	"requirement": "Bring your laptop and touch the keyboard a whole lot"
@@ -29,7 +29,7 @@
 	"tags": ["#programming", "#coding", "#Javascript"],
 	"date": "16-05-2017",
 	"time": "20:00",
-	"imgUrl": "www.google.com",
+	"imgUrl": "./img/event4.jpg",
 	"address": "Svendborg hjørnet 22",
 	"geoLocation": [20.00, 45.00],
 	"requirement": "Bring your laptop and touch the keyboard a whole lot"
@@ -41,7 +41,7 @@
 	"tags": ["#programming", "#coding", "#Php"],
 	"date": "26-08-2017",
 	"time": "20:00",
-	"imgUrl": "www.google.com",
+	"imgUrl": "./img/event8.jpg",
 	"address": "Café lummerfis",
 	"geoLocation": [20.00, 45.00],
 	"requirement": "Bring your laptop and touch the keyboard a whole lot"
@@ -53,7 +53,7 @@
 	"tags": ["#media", "#MovieEditing", "#sMorc"],
 	"date": "16-05-2017",
 	"time": "20:00",
-	"imgUrl": "www.google.com",
+	"imgUrl": "./img/event6.jpg",
 	"address": "Lygten 32",
 	"geoLocation": [20.00, 45.00],
 	"requirement": "Bring your laptop and touch the keyboard a whole lot"
@@ -65,7 +65,7 @@
 	"tags": ["#git", "#versionControl", "#programming"],
 	"date": "16-05-2017",
 	"time": "20:00",
-	"imgUrl": "www.google.com",
+	"imgUrl": "./img/event7.jpg",
 	"address": "Lygten 32",
 	"geoLocation": [20.00, 45.00],
 	"requirement": "Bring your laptop and touch the keyboard a whole lot"

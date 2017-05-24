@@ -15,7 +15,7 @@
   height: auto;
   margin: 20px 0px 20px 0px;
   background-color: $light-green;
-  overflow: scroll;
+  overflow: scroll; 
 
   .close-pop {
     // position: relative;
@@ -34,6 +34,7 @@
       rgba(30, 195, 154, 0.5),
       rgba(30, 195, 154, 0.5)
     ), center center no-repeat url("../img/datguy.jpg");
+
   }
   .pop-name{
     color: white;

@@ -20,9 +20,10 @@ function getEvents(destination) {
             $.each( data, function( key, val ) {
 
                 var finalEvent = eventTemplate.replace("{{event-title}}", val.title);
+                finalEvent = finalEvent.replace("{{img-url}}", val.imgUrl);
                 finalEvent = finalEvent.replace("{{event-id}}", val.id);
                 finalEvent = finalEvent.replace("{{event-date}}", val.date);
-                finalEvent = finalEvent.replace("{{event-location}}", val.address);
+                finalEvent = finalEvent.replace("{{event-location}}", "'"+val.address+"'");
                 $(".overview-content").append(finalEvent);
 
             })
@@ -39,8 +40,10 @@ function getEvents(destination) {
                     $(".pop-req").text(val.requirement);
                     $(".pop-desc").text(val.description);
                     $(".tags").empty();
+                    $(".pop-top").css("background", "linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url("+val.imgUrl+")");
+                    $(".pop-top").css("background-size", "cover");
                     $.each(val.tags, function (key, tag) {
-                        var tagMarkUp = '<p class="tag">'+tag+'</p>'
+                        var tagMarkUp = '<p class="tag">'+tag+'</p>';
                         $(".tags").append(tagMarkUp);
                     });
                     var mapUrl = $("#googleMap").attr("src").toString();
@@ -54,7 +57,7 @@ function getEvents(destination) {
     }
 }
 
-var eventTemplate = "<div data-id='{{event-id}}' class='event-item'>\
+var eventTemplate = "<div data-id='{{event-id}}' class='event-item' style='background:linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url({{img-url}}); background-size: cover'>\
                     <h3>{{event-title}}</h3>\
                     <div>\
                         <span class='event-item_date'>{{event-date}}</span>\
@@ -64,3 +67,25 @@ var eventTemplate = "<div data-id='{{event-id}}' class='event-item'>\
 
 
 
+// $(".overview-content.grid").hover(function () {
+//
+// }, function () {
+//
+// });
+
+$(".overview-content").on({
+    mouseenter: function () {
+        if($(".overview-content").hasClass("grid"))
+        {
+            // $(this).animate({ backgroundSize: '200%' }, 500);
+        }
+
+    },
+    mouseleave:function () {
+        if($(".overview-content").hasClass("grid"))
+        {
+            // $(this).css("background-size", "100%");
+            // console.log("y");
+        }
+    }
+},'.event-item');

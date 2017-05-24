@@ -103,6 +103,111 @@
 /*
     Align content
  */
+/**
+* SassFlexbox
+* Manage Flexbox in Sass easily.
+*
+* @author     Samuel Marchal (zessx)
+* @version    0.1
+*/
+/*
+    Display
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-event .date-time-inputs, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .burger-menu, .side-nav, .menu-points {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+/*
+    Flex direction
+ */
+.create .create-inputs, .create .create-event-inputs, .create .create-event, .succes-message .succes-box, .burger-menu, .menu-points {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+/*
+    Flex wrap
+ */
+/*
+    Flex flow
+ */
+/*
+    Order
+ */
+/*
+    Flex grow
+ */
+/*
+    Flex shrink
+ */
+/*
+    Flex basis
+ */
+/*
+    Flex
+ */
+/*
+    Justify content
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-final-btn, .succes-message, .succes-message .succes-box, .side-nav {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-flex-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .create .choose-create .create-buttons, .create .create-event, .create .create-event .date-time-inputs, .burger-menu {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-flex-pack: justify;
+  -ms-flex-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+
+.event-pop .pop-sign-up, .create .create-inputs, .create .create-event-inputs, .menu-points {
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+
+/*
+    Align items
+ */
+#content .overview .overview_top, .sponsor-page .sponsor_top, .create .create-top {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  align-items: flex-end; }
+
+.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
+/*
+    Align self
+ */
+.create .create-event .create-file {
+  -ms-flex-item-align: start;
+  -webkit-align-self: flex-start;
+  -moz-align-self: flex-start;
+  align-self: flex-start; }
+
+/*
+    Align content
+ */
 #content .overview {
   background-color: #F1FEF9; }
   #content .overview .overview_top {
@@ -119,12 +224,17 @@
     padding: 10px 5px;
     color: #09765B;
     font-family: "Lato", sans-serif; }
+    @media only screen and (max-width: 736px) {
+      #content .overview .overview_filters {
+        flex-direction: column; } }
     #content .overview .overview_filters .overview_filters-view {
       display: flex;
       flex-direction: column;
       align-items: center;
       flex-grow: 1;
       margin: 0 30px; }
+      #content .overview .overview_filters .overview_filters-view div:first-child {
+        font-size: 18px; }
       #content .overview .overview_filters .overview_filters-view div:last-child {
         width: 100%;
         display: flex;
@@ -132,9 +242,14 @@
         #content .overview .overview_filters .overview_filters-view div:last-child span {
           cursor: pointer;
           color: black;
-          padding: 5px; }
+          padding: 7px; }
           #content .overview .overview_filters .overview_filters-view div:last-child span i {
-            vertical-align: middle; }
+            vertical-align: bottom;
+            font-size: 28px; }
+        #content .overview .overview_filters .overview_filters-view div:last-child #overview-list i {
+          font-size: 33px; }
+        #content .overview .overview_filters .overview_filters-view div:last-child #overview-grid i {
+          font-size: 31px; }
         #content .overview .overview_filters .overview_filters-view div:last-child span.active {
           color: #C3461E; }
     #content .overview .overview_filters .overview_filters-selector {
@@ -151,6 +266,10 @@
       padding-left: 5px; }
       #content .overview .overview_filters .overview_filters-selector:focus {
         outline: none; }
+      @media only screen and (max-width: 736px) {
+        #content .overview .overview_filters .overview_filters-selector {
+          width: 90%;
+          margin-bottom: 10px; } }
     #content .overview .overview_filters input {
       border: solid 2px #09765B;
       padding: 2px;
@@ -187,6 +306,9 @@
         /* Microsoft Edge */
         color: #09765B;
         font-family: "Lato", sans-serif; }
+      @media only screen and (max-width: 736px) {
+        #content .overview .overview_filters input {
+          width: 90%; } }
   #content .overview .overview-content {
     color: #09765B;
     font-family: "Lato", sans-serif; }
@@ -197,24 +319,24 @@
       display: inline-block; }
   #content .overview .overview-content.list .event-item {
     padding: 10px;
-    border-top: solid 1px; }
+    border-top: solid 1px;
+    background: transparent !important; }
     #content .overview .overview-content.list .event-item div {
       margin-top: 5px; }
     #content .overview .overview-content.list .event-item .event-item_date:after {
       content: ","; }
   #content .overview .overview-content.list .event-item:last-of-type {
     border-bottom: solid 1px; }
-  #content .overview .overview-content .grid {
+  #content .overview .overview-content.grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
-    #content .overview .overview-content .grid .event-item {
+    #content .overview .overview-content.grid .event-item {
       width: 33.33%;
       height: 350px;
       padding: 5px;
-      position: relative;
-      background: linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url("../img/datguy.jpg"); }
-      #content .overview .overview-content .grid .event-item div {
+      position: relative; }
+      #content .overview .overview-content.grid .event-item div {
         opacity: 0;
         position: absolute;
         bottom: 5px;
@@ -223,12 +345,12 @@
         -o-transition: opacity 0.25s ease-in-out;
         -webkit-transition: opacity 0.25s ease-in-out;
         transition: opacity 0.25s ease-in-out; }
-      #content .overview .overview-content .grid .event-item .event-item_date:after {
+      #content .overview .overview-content.grid .event-item .event-item_date:after {
         content: ","; }
       @media only screen and (max-width: 736px) {
-        #content .overview .overview-content .grid .event-item {
+        #content .overview .overview-content.grid .event-item {
           width: 50%; } }
-    #content .overview .overview-content .grid .event-item:hover div {
+    #content .overview .overview-content.grid .event-item:hover div {
       opacity: 1; }
 
 .event-pop-wrapper {
