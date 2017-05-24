@@ -24,12 +24,26 @@
   @include display-flex();
   @include flex-direction(column);
   @include justify-content(center);
+
+  @include bp-mobile(){
+    font-size: 45px;
+    width: 95%;
+  };
+
+  @include bp-tablet(){
+    width: 85%;
+    font-size: 70px;
+  };
 }
 
 .join {
   font-family: $header-font;
   color: #ffffff;
   font-size: 40px;
+
+  @include bp-mobile(){
+    font-size: 25px;
+  };
 }
 
 .sponsor-section {
@@ -44,6 +58,10 @@
     padding-left: 50px;
 
   }
+
+  @include bp-mobile(){
+    height: 300px;
+  };
 }
 
 .sponsors-example {
@@ -53,6 +71,10 @@
   @include flex-direction(column);
   @include justify-content(space-around);
   @include align-items(center);
+
+  @include bp-mobile(){
+    height: 200px;
+  };
 }
 
 .sponsor-row {
@@ -69,6 +91,10 @@
 .sponsor-img {
   width: 25%;
   @include align-self(center);
+
+  @include bp-mobile() {
+    width: 30%;
+  };
 }
 
 .sponsor-contact {
@@ -84,6 +110,10 @@
     font-family: $body-font;
     color: #ffffff;
     font-size: 20px;
+
+    @include bp-mobile(){
+      font-size: 15px;
+    };
   }
 }
 

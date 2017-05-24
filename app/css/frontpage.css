@@ -101,11 +101,22 @@
   font-size: 100px;
   width: 70%;
   height: 650px; }
+  @media only screen and (max-width: 736px) {
+    .wtf-text {
+      font-size: 45px;
+      width: 95%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .wtf-text {
+      width: 85%;
+      font-size: 70px; } }
 
 .join {
   font-family: "Overpass Mono", monospace;
   color: #ffffff;
   font-size: 40px; }
+  @media only screen and (max-width: 736px) {
+    .join {
+      font-size: 25px; } }
 
 .sponsor-section {
   width: 100%;
@@ -116,10 +127,16 @@
     color: #ffffff;
     font-size: 50px;
     padding-left: 50px; }
+  @media only screen and (max-width: 736px) {
+    .sponsor-section {
+      height: 300px; } }
 
 .sponsors-example {
   width: 100%;
   height: 400px; }
+  @media only screen and (max-width: 736px) {
+    .sponsors-example {
+      height: 200px; } }
 
 .sponsor-row {
   width: 100%;
@@ -130,6 +147,9 @@
 
 .sponsor-img {
   width: 25%; }
+  @media only screen and (max-width: 736px) {
+    .sponsor-img {
+      width: 30%; } }
 
 .sponsor-contact {
   width: 100%;
@@ -140,6 +160,9 @@
     font-family: "Lato", sans-serif;
     color: #ffffff;
     font-size: 20px; }
+    @media only screen and (max-width: 736px) {
+      .sponsor-contact p {
+        font-size: 15px; } }
 
 .overview-content.grid {
   display: flex;
