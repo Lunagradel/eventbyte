@@ -264,6 +264,16 @@
       background-color: #09765B;
       font-family: "Overpass Mono", monospace;
       display: inline-block; }
+    #content .overview .overview-content .event-item {
+      position: relative; }
+      #content .overview .overview-content .event-item .event-item_admin {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; }
   #content .overview .overview-content.list .event-item {
     padding: 10px;
     border-top: solid 1px;
@@ -537,7 +547,17 @@
     text-align: center;
     padding: 10px;
     margin: 10px auto;
-    color: white; }
+    color: white;
+    cursor: pointer; }
+    .admin-login .login-btn .fa-spinner {
+      -moz-transition: all 1.5s linear;
+      -webkit-transition: all 1.5s linear;
+      transition: all 1.5s linear; }
+      .admin-login .login-btn .fa-spinner.down {
+        -ms-transform: rotate(780deg);
+        -moz-transform: rotate(780deg);
+        -webkit-transform: rotate(780deg);
+        transform: rotate(780deg); }
   .admin-login input {
     width: 600px;
     border: none;

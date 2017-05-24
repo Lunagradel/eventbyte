@@ -63,6 +63,10 @@ var eventTemplate = "<div data-id='{{event-id}}' class='event-item' style='backg
                         <span class='event-item_date'>{{event-date}}</span>\
                         <span class='event-item_location'>{{event-location}}</span>\
                     </div>\
+                    <div class='event-item_admin'>\
+                        <span class='event-item_edit'>Edit</span>\
+                        <span class='event-item_delete'>Delete</span>\
+                    </div>\
                 </div>";
 
 

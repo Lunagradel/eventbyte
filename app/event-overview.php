@@ -7,7 +7,6 @@ $pageTitle = "Events"
 
       <section class="pop-top">
         <p class="pop-name">eventname_</p>
-        <div class="close-pop">X</div>
       </section>
       <section class="pop-important-info">
         <div class="information">
