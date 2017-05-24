@@ -92,6 +92,9 @@
                 case "create":
                     include 'create.php';
                     break;
+                case "edit":
+                    include 'edit.php';
+                    break;
                 default:
                     include '404.php';
                     break;
@@ -109,5 +112,6 @@
   <script src="js/overlay.js"></script>
   <script src="js/create.js"></script>
   <script src="js/admin.js"></script>
+  <script src="js/edit.js"></script>
   </body>
 </html>

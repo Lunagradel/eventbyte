@@ -14,6 +14,11 @@ $('body').on('click', 'div.event-item', function(e) {
 
     }else if(e.target.matches('.event-item_edit')){
 
+        localStorage.setItem("eventEdit", dataTypeId);
+        setTimeout(function () {
+            window.location.href = "?id=edit";
+        }, 20);
+        console.log(localStorage.getItem("eventEdit"));
 
     }else {
         var id = $(this).attr("data-id");
@@ -45,3 +50,11 @@ function showCanvas(id) {
     getEvents(id);
     $(".canvas").slideDown(200).css("display","inline-flex");
 }
+
+var editedEvent = localStorage.getItem("editedEvent"),
+    eventToEdit = localStorage.getItem("eventEdit");
+if (editedEvent == 1 ){
+    localStorage.setItem("editedEvent", 0);
+    showCanvas(eventToEdit);
+}
+
