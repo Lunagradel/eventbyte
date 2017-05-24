@@ -52,7 +52,10 @@ function showCanvas(id) {
 }
 
 var editedEvent = localStorage.getItem("editedEvent"),
-    eventToEdit = localStorage.getItem("eventEdit");
+    eventToEdit = localStorage.getItem("eventEdit"),
+    createdEvent = localStorage.getItem("createdEvent"),
+    newEventEl = $("#newPhoneyEl");
+
 if (editedEvent == 1 ){
     localStorage.setItem("editedEvent", 0);
     showCanvas(eventToEdit);

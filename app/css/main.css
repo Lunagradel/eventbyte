@@ -374,6 +374,8 @@
           width: 50%; } }
     #content .overview .overview-content.grid .event-item:hover div {
       opacity: 1; }
+#content #newPhoneyEl {
+  display: none; }
 
 .event-pop-wrapper {
   width: 100%;
@@ -725,11 +727,11 @@
       color: black;
       font-family: "Lato", sans-serif; }
 
-#editEvent .fa-spinner {
+#editEvent .fa-spinner, .create-event .fa-spinner {
   -moz-transition: all 1.5s linear;
   -webkit-transition: all 1.5s linear;
   transition: all 1.5s linear; }
-  #editEvent .fa-spinner.down {
+  #editEvent .fa-spinner.down, .create-event .fa-spinner.down {
     -ms-transform: rotate(780deg);
     -moz-transform: rotate(780deg);
     -webkit-transform: rotate(780deg);

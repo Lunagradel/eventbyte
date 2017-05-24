@@ -26,10 +26,7 @@ function inputEditInfo () {
 }
 
 editBtn.click(
-
     function () {
-        console.log("X");
-        localStorage.setItem("loggedIn", "true");
         editBtn.html(spinner);
         setTimeout(function () {
             $(".fa-spinner").toggleClass("down");

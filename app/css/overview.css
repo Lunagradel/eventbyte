@@ -222,5 +222,7 @@
           width: 50%; } }
     #content .overview .overview-content.grid .event-item:hover div {
       opacity: 1; }
+#content #newPhoneyEl {
+  display: none; }
 
 /*# sourceMappingURL=overview.css.map */

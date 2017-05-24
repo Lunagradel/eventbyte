@@ -1,7 +1,6 @@
 var lgnBtn = $(".login-btn"),
     spinner = '<i class="fa fa-spinner" aria-hidden="true"></i>',
-    btnDelete = document.getElementsByClassName("event-item_delete"),
-    btnEdit = document.getElementsByClassName("event-item_edit");
+    crtBtn = $("#createEventFinalBtn");
 
 
 lgnBtn.click(
@@ -20,3 +19,19 @@ lgnBtn.click(
     }
 );
 
+
+crtBtn.click(
+    function () {
+        crtBtn.html(spinner);
+        setTimeout(function () {
+            $(".fa-spinner").toggleClass("down");
+            setTimeout(function () {
+                crtBtn.html("Event Created!").css("background-color", "#09765B");
+                localStorage.setItem("createdEvent", 1);
+                setTimeout(function () {
+                    window.location.href = "?id=events"
+                }, 1000)
+            }, 1500)
+        }, 1);
+    }
+);

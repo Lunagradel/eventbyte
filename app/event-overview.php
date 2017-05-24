@@ -90,5 +90,14 @@ $pageTitle = "Events"
         <input type="text" placeholder="Search" class="overview_filters-search">
     </div>
     <div class="overview-content list">
+        <div id="newPhoneyEl" class="event-item" data-id="1" style="background:linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url(./img/event1.jpeg); background-size: cover">
+            <h3>JSON with JASON</h3>
+            <div>
+                <span class="event-item_date">15-05-2017</span> <span class="event-item_location">'Nørrebrogade 32'</span>
+            </div>
+            <div class="event-item_admin">
+                <span class="event-item_edit">Edit</span> <span class="event-item_delete">Delete</span>
+            </div>
+        </div>
     </div>
 </section>

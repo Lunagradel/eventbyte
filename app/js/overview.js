@@ -14,7 +14,7 @@ $( document ).ready( function () {
 function getEvents(destination) {
 
     if(destination === "overview"){
-        $(".overview-content").empty();
+        // $(".overview-content").empty();
         $.getJSON( "db/events.json", function( data ) {
             var items = [];
             $.each( data, function( key, val ) {
@@ -55,6 +55,7 @@ function getEvents(destination) {
             })
         })
     }
+    AddNewEvent();
 }
 
 var eventTemplate = "<div data-id='{{event-id}}' class='event-item' style='background:linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url({{img-url}}); background-size: cover'>\
@@ -93,3 +94,13 @@ $(".overview-content").on({
         }
     }
 },'.event-item');
+
+function AddNewEvent() {
+    if (createdEvent == 1){
+        console.log(createdEvent);
+        localStorage.setItem("createdEvent", 0);
+        setTimeout(function () {
+            $(newEventEl).show('slide', {direction: 'left'}, 500);
+        }, 500);
+    }
+}

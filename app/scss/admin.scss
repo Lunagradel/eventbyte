@@ -51,14 +51,14 @@
       color: black;
       font-family: $body-font;
     }
-    &:-ms-input-placeholder { /* Microsoft Edge */ 
+    &:-ms-input-placeholder { /* Microsoft Edge */
       color: black;
       font-family: $body-font;
     }
   }
 
 }
-#editEvent{
+#editEvent, .create-event{
   .fa-spinner{
     -moz-transition: all 1.5s linear;
     -webkit-transition: all 1.5s linear;
