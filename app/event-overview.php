@@ -6,6 +6,7 @@ $pageTitle = "Events"
     <div class="event-pop">
 
       <section class="pop-top">
+        <div class="close" id="closePop">X</div>
         <p class="pop-name">eventname_</p>
       </section>
       <section class="pop-important-info">
@@ -82,10 +83,10 @@ $pageTitle = "Events"
         </div>
         <select class="overview_filters-selector">
             <option value="" disabled selected>Filter</option>
-            <option value="volvo">Media</option>
-            <option value="saab">Programming</option>
-            <option value="mercedes">Maker</option>
-            <option value="audi">Entertainment</option>
+            <option value="Media">Media</option>
+            <option value="Programming">Programming</option>
+            <option value="Marker">Maker</option>
+            <option value="Entertainment">Entertainment</option>
         </select>
         <input type="text" placeholder="Search" class="overview_filters-search">
     </div>

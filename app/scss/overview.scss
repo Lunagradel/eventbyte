@@ -25,12 +25,19 @@
       padding: 10px 5px;
       color: $dark-green;
       font-family: $body-font;
+
+      @include bp-mobile(){
+        flex-direction: column;
+      };
       .overview_filters-view{
         display: flex;
         flex-direction: column;
         align-items: center;
         flex-grow: 1;
         margin: 0 30px;
+        div:first-child{
+          font-size: 18px;
+        }
         div:last-child{
           width: 100%;
           display: flex;
@@ -38,9 +45,20 @@
           span{
             cursor: pointer;
             color: black;
-            padding:5px;
+            padding:7px;
             i{
-              vertical-align: middle;
+              vertical-align: bottom;
+              font-size: 28px;
+            }
+          }
+          #overview-list {
+            i {
+              font-size: 33px;
+            }
+          }
+          #overview-grid {
+            i {
+              font-size: 31px;
             }
           }
           span.active{
@@ -55,15 +73,61 @@
         padding: 2px;
         flex-grow: 1;
         margin: 0 30px;
+        background-color: $light-green;
+        font-family: $body-font;
+        color: $dark-green;
+        font-size: 17px;
+        padding-left: 5px;
+        &:focus {
+          outline: none;
+        }
+
+        @include bp-mobile(){
+          width: 90%;
+          margin-bottom: 10px;
+        };
       }
       input{
         border: solid 2px #09765B;
         padding: 2px;
         flex-grow: 1;
         margin: 0 30px;
+        background-color: $light-green;
+        font-family: $body-font;
+        color: $dark-green;
+        font-size: 17px;
+        padding-left: 5px;
         &[type="text"]{
           font-family: $body-font;
         }
+        &:focus{
+          outline: none;
+        }
+        &::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+          color: $dark-green;
+          font-family: $body-font;
+        }
+        &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+          color: $dark-green;
+          font-family: $body-font;
+          opacity: 1;
+        }
+        &:-moz-placeholder { /* Mozilla Firefox 19+ */
+          color: $dark-green;
+          font-family: $body-font;
+          opacity: 1;
+        }
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+          color: $dark-green;
+          font-family: $body-font;
+        }
+        &:-ms-input-placeholder { /* Microsoft Edge */
+          color: $dark-green;
+          font-family: $body-font;
+        }
+        @include bp-mobile(){
+          width: 90%;
+        };
       }
     }
     .overview-content{

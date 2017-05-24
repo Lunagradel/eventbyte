@@ -37,3 +37,4 @@ function showCanvas(id) {
     getEvents(id);
     $(".canvas").slideDown(200).css("display","inline-flex");
 }
+
