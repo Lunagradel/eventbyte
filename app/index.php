@@ -67,7 +67,7 @@
                 case "about":
                     include 'about.php';
                     break;
-                case "admin-login":
+                case "admin":
                     include 'login.php';
                     break;
                 default:
