@@ -32,9 +32,16 @@ $(".canvas").click( function(e) {
     }
 });
 
+$(document).on("click", "#closePop", function(){
+  $(this).parent(":first").animate({
+      top: "100%"
+  }, 100, "swing", function () {
+      $(this).parent().hide();
+  });
+});
+
 
 function showCanvas(id) {
     getEvents(id);
     $(".canvas").slideDown(200).css("display","inline-flex");
 }
-

@@ -31,11 +31,20 @@
                 echo '<span class="active-span">_</span>';
             }
             ?></a>
-        <a class="menu-point" href="?id=about">ABOUT<?php
+        <a class="menu-point admin-menu-point" href="?id=create">CREATE<?php
+            if ($_GET["id"]=="create"){
+                echo '<span class="active-span">_</span>';
+            }
+            ?></a>
+        <a class="menu-point not-admin-menu-point" href="?id=about">ABOUT<?php
             if ($_GET["id"]=="about"){
                 echo '<span class="active-span">_</span>';
             }
             ?></a>
+        <a class="menu-point admin-menu-point">LOG OUT</a>
+
+
+
       </div>
     </div>
     <div class="main">

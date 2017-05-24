@@ -19,6 +19,7 @@
   .sponsor-about{
     h3{
       color: $dark-green;
+      font-size: 30px;
     }
     background-color: white;
     padding: 10px;
@@ -27,6 +28,9 @@
   .sponsor-signup{
     color: white;
     padding: 10px;
+    h3 {
+      font-size: 30px;
+    }
     .sponsor-thx{
       width: 100%;
       text-align: center;

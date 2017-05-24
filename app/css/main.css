@@ -8,7 +8,7 @@
 /*
     Display
  */
-#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-event .date-time-inputs, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .burger-menu, .side-nav, .menu-points {
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-event .date-time-inputs, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .burger-menu, .log-out-button, .side-nav, .menu-points {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flexbox;
@@ -51,7 +51,7 @@
 /*
     Justify content
  */
-#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-final-btn, .succes-message, .succes-message .succes-box, .side-nav {
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-final-btn, .succes-message, .succes-message .succes-box, .log-out-button, .side-nav {
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -webkit-flex-pack: center;
@@ -60,7 +60,7 @@
   -webkit-justify-content: center;
   justify-content: center; }
 
-.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .create .choose-create .create-buttons, .create .create-event, .create .create-event .date-time-inputs, .burger-menu {
+.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .create .choose-create .create-buttons, .create .create-event, .create .create-event .date-time-inputs, .top, .burger-menu {
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
   -webkit-flex-pack: justify;
@@ -84,7 +84,7 @@
   -moz-align-items: flex-end;
   align-items: flex-end; }
 
-.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top {
+.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .log-out-button {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
@@ -119,7 +119,7 @@
 /*
     Display
  */
-#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-event .date-time-inputs, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .burger-menu, .side-nav, .menu-points {
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-event .date-time-inputs, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .burger-menu, .log-out-button, .side-nav, .menu-points {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flexbox;
@@ -162,7 +162,7 @@
 /*
     Justify content
  */
-#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-final-btn, .succes-message, .succes-message .succes-box, .side-nav {
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-final-btn, .succes-message, .succes-message .succes-box, .log-out-button, .side-nav {
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -webkit-flex-pack: center;
@@ -171,7 +171,7 @@
   -webkit-justify-content: center;
   justify-content: center; }
 
-.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .create .choose-create .create-buttons, .create .create-event, .create .create-event .date-time-inputs, .burger-menu {
+.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .create .choose-create .create-buttons, .create .create-event, .create .create-event .date-time-inputs, .top, .burger-menu {
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
   -webkit-flex-pack: justify;
@@ -195,7 +195,7 @@
   -moz-align-items: flex-end;
   align-items: flex-end; }
 
-.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top {
+.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .log-out-button {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;
@@ -579,8 +579,11 @@
         align-items: flex-start;
         height: auto;
         padding: 5px; } }
-  .event-pop .map iframe {
-    width: 100%; }
+  .event-pop .map {
+    height: 300px; }
+    .event-pop .map iframe {
+      width: 100%;
+      height: 300px; }
 
 .sponsor-page {
   font-family: "Lato", sans-serif; }
@@ -596,10 +599,13 @@
     background-color: white;
     padding: 10px; }
     .sponsor-page .sponsor-about h3 {
-      color: #09765B; }
+      color: #09765B;
+      font-size: 30px; }
   .sponsor-page .sponsor-signup {
     color: white;
     padding: 10px; }
+    .sponsor-page .sponsor-signup h3 {
+      font-size: 30px; }
     .sponsor-page .sponsor-signup .sponsor-thx {
       width: 100%;
       text-align: center;
@@ -652,13 +658,18 @@
           width: 100%; } }
 
 .about-main {
-  padding: 80px 20px;
-  color: white; }
+  padding: 80px 70px;
+  color: white;
+  height: 100vh; }
   .about-main h2 {
     text-align: center;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: #09765B; }
   .about-main p {
-    font-family: "Lato", sans-serif; }
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding: 10px; }
 
 .admin-login {
   padding-top: 60px;
@@ -873,7 +884,7 @@ h1, h2, h3, h4, h5 {
 .top {
   height: 60px;
   width: 100%;
-  padding-left: 10px;
+  padding: 0px 10px 0px 10px;
   z-index: 400;
   position: fixed; }
 
@@ -935,6 +946,20 @@ svg:hover .logo {
   height: 8px;
   background-color: #ffffff; }
 
+.log-out-button {
+  width: 200px;
+  height: 36px;
+  background-color: #C3461E;
+  cursor: pointer;
+  transition: 0.5s ease-in; }
+  .log-out-button p {
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-size: 20px; }
+
+.log-out-button:hover {
+  background-color: #761D00; }
+
 .side-nav {
   height: 100vh;
   width: 0;
@@ -963,7 +988,6 @@ svg:hover .logo {
     .menu-points {
       height: 250px; } }
   .menu-points a {
-    width: 20%;
     height: 50px;
     display: none;
     transition: 0.1s;
