@@ -43,8 +43,8 @@
                 echo '<span class="active-span">_</span>';
             }
             ?></a>
-        <a class="menu-point" href="?id=sponsor">SPONSORS<?php
-            if ($_GET["id"]=="sponsor"){
+        <a class="menu-point" href="?id=sponsor-list">SPONSORS<?php
+            if ($_GET["id"]=="sponsor-list"){
                 echo '<span class="active-span">_</span>';
             }
             ?></a>
@@ -94,6 +94,12 @@
                     break;
                 case "edit":
                     include 'edit.php';
+                    break;
+                case "sponsor-list":
+                    include 'sponsors.php';
+                    break;
+                case "edit-sponsor":
+                    include 'editSponsors.php';
                     break;
                 default:
                     include '404.php';

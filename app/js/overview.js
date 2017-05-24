@@ -6,8 +6,23 @@ $("#overview-grid, #overview-list").click(function () {
 
 
 $( document ).ready( function () {
-    var destination = "overview";
-    getEvents(destination);
+
+    if (!localStorage.loggedIn) {
+        $(".overview-content").addClass("not-logged-in");
+    }
+
+    isSponsorSite = $(".overview-content").hasClass("sponsors");
+    if (!isSponsorSite){
+        var destination = "overview";
+        getEvents(destination);
+    }
+
+
+    if (localStorage.loggedIn == "true"){
+        console.log("is");
+        $(".event-item_admin").show();
+    }
+
 
 });
 
@@ -16,7 +31,6 @@ function getEvents(destination) {
     if(destination === "overview"){
         // $(".overview-content").empty();
         $.getJSON( "db/events.json", function( data ) {
-            var items = [];
             $.each( data, function( key, val ) {
 
                 var finalEvent = eventTemplate.replace("{{event-title}}", val.title);
@@ -46,16 +60,14 @@ function getEvents(destination) {
                         var tagMarkUp = '<p class="tag">'+tag+'</p>';
                         $(".tags").append(tagMarkUp);
                     });
-                    // var mapUrl = $("#googleMap").attr("src").toString();
-                    // // var mapUrl = 'http://maps.google.com/maps?q='+val.geoLocation[0]+','+val.geoLocation[1]+'&hl=es;z=14&amp;output=embed';
-                    // var newMapUrl = mapUrl.replace("'+YOUR_LAT+'", val.geoLocation[0]);
-                    // newMapUrl = newMapUrl.replace("'+YOUR_LON+'", val.geoLocation[1]);
-                    // document.getElementById("googleMap").src = newMapUrl;
                 }
             })
         })
     }
     AddNewEvent();
+    if (!localStorage.loggedIn) {
+        $(".overview-content").addClass("not-logged-in");
+    }
 }
 
 var eventTemplate = "<div data-id='{{event-id}}' class='event-item' style='background:linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url({{img-url}}); background-size: cover'>\
@@ -70,13 +82,6 @@ var eventTemplate = "<div data-id='{{event-id}}' class='event-item' style='backg
                     </div>\
                 </div>";
 
-
-
-// $(".overview-content.grid").hover(function () {
-//
-// }, function () {
-//
-// });
 
 $(".overview-content").on({
     mouseenter: function () {

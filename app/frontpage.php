@@ -12,54 +12,7 @@
 </section>
 <section>
   <div class="overview-content grid">
-      <div class="event-item">
-        <div class="green-overlay"></div>
-          <h3>Event Title</h3>
-          <div>
-              <span class="event-item_date">26/05-17</span>
-              <span class="event-item_location">Lygten 37</span>
-          </div>
-      </div>
-      <div class="event-item">
-        <div class="green-overlay"></div>
-          <h3>Event Title</h3>
-          <div>
-              <span class="event-item_date">26/05-17</span>
-              <span class="event-item_location">Lygten 37</span>
-          </div>
-      </div>
-      <div class="event-item">
-        <div class="green-overlay"></div>
-          <h3>Event Title</h3>
-          <div>
-              <span class="event-item_date">26/05-17</span>
-              <span class="event-item_location">Lygten 37</span>
-          </div>
-      </div>
-      <div class="event-item">
-        <div class="green-overlay"></div>
-          <h3>Event Title</h3>
-          <div>
-              <span class="event-item_date">26/05-17</span>
-              <span class="event-item_location">Lygten 37</span>
-          </div>
-      </div>
-      <div class="event-item">
-        <div class="green-overlay"></div>
-          <h3>Event Title</h3>
-          <div>
-              <span class="event-item_date">26/05-17</span>
-              <span class="event-item_location">Lygten 37</span>
-          </div>
-      </div>
-      <div class="event-item">
-        <div class="green-overlay"></div>
-          <h3>Event Title</h3>
-          <div>
-              <span class="event-item_date">26/05-17</span>
-              <span class="event-item_location">Lygten 37</span>
-          </div>
-      </div>
+
   </div>
 </section>
 <section class="sponsor-section">

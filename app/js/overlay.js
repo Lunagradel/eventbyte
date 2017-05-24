@@ -18,7 +18,7 @@ $('body').on('click', 'div.event-item', function(e) {
         setTimeout(function () {
             window.location.href = "?id=edit";
         }, 20);
-        console.log(localStorage.getItem("eventEdit"));
+        // console.log(localStorage.getItem("eventEdit"));
 
     }else {
         var id = $(this).attr("data-id");
@@ -48,7 +48,10 @@ $(document).on("click", "#closePop", function(){
 
 function showCanvas(id) {
     getEvents(id);
-    $(".canvas").slideDown(200).css("display","inline-flex");
+    setTimeout(function () {
+        $(".canvas").slideDown(200).css("display","inline-flex");
+    },200);
+
 }
 
 var editedEvent = localStorage.getItem("editedEvent"),

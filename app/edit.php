@@ -1,6 +1,6 @@
 <div id="editEvent" class="create">
     <div class="create-top">
-        <p>Edit</p>
+        <p>edit event</p>
     </div>
     <div class="create-event">
         <div class="create-event-inputs">
