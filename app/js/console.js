@@ -9,6 +9,7 @@ var captionElExists = document.getElementById("caption");
 
 $(document).ready(function() {
     if(captionElExists){
+        console.log("Went there");
         setInterval ('cursorAnimation()', 600);
         arrayLoop();
     }

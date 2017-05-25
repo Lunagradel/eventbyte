@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/frontpage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <script src="https://use.fontawesome.com/bce7f6c050.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato|Overpass+Mono" rel="stylesheet">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
   </head>
   <body>
 
@@ -111,13 +113,15 @@
 
 
 
+    <!--build:js js/combined.js -->
+    <script src="js/main.js"></script>
+    <script src="js/overview.js"></script>
+    <script src="js/overlay.js"></script>
+    <script src="js/create.js"></script>
+    <script src="js/admin.js"></script>
+    <script src="js/edit.js"></script>
+    <script src="js/console.js"></script>
+    <!-- endbuild -->
 
-  <script src="js/console.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/overview.js"></script>
-  <script src="js/overlay.js"></script>
-  <script src="js/create.js"></script>
-  <script src="js/admin.js"></script>
-  <script src="js/edit.js"></script>
   </body>
 </html>

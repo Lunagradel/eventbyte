@@ -1,3 +1,2176 @@
+/**
+* SassFlexbox
+* Manage Flexbox in Sass easily.
+*
+* @author     Samuel Marchal (zessx)
+* @version    0.1
+*/
+/*
+    Display
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-event .date-time-inputs, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .burger-menu, .log-out-button, .side-nav, .menu-points, .hero, .wtf-text, .sponsors-example, .sponsor-row, .sponsor-contact {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
 
+/*
+    Flex direction
+ */
+.create .create-inputs, .create .create-event-inputs, .create .create-event, .succes-message .succes-box, .burger-menu, .menu-points, .hero, .wtf-text, .sponsors-example {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+/*
+    Flex wrap
+ */
+/*
+    Flex flow
+ */
+/*
+    Order
+ */
+/*
+    Flex grow
+ */
+/*
+    Flex shrink
+ */
+/*
+    Flex basis
+ */
+/*
+    Flex
+ */
+/*
+    Justify content
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-final-btn, .succes-message, .succes-message .succes-box, .log-out-button, .side-nav, .wtf-text, .sponsor-contact {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-flex-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .create .choose-create .create-buttons, .create .create-event, .create .create-event .date-time-inputs, .top, .burger-menu {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-flex-pack: justify;
+  -ms-flex-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+
+.event-pop .pop-sign-up, .create .create-inputs, .create .create-event-inputs, .menu-points, .sponsors-example, .sponsor-row {
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+
+/*
+    Align items
+ */
+#content .overview .overview_top, .sponsor-page .sponsor_top, .create .create-top {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  align-items: flex-end; }
+
+.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .log-out-button, .hero, .sponsors-example, .sponsor-contact {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
+/*
+    Align self
+ */
+.create .create-event .create-file {
+  -ms-flex-item-align: start;
+  -webkit-align-self: flex-start;
+  -moz-align-self: flex-start;
+  align-self: flex-start; }
+
+.event-pop .pop-name {
+  -ms-flex-item-align: end;
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  align-self: flex-end; }
+
+.sponsor-img {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  align-self: center; }
+
+/*
+    Align content
+ */
+/**
+* SassFlexbox
+* Manage Flexbox in Sass easily.
+*
+* @author     Samuel Marchal (zessx)
+* @version    0.1
+*/
+/*
+    Display
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-event .date-time-inputs, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .burger-menu, .log-out-button, .side-nav, .menu-points, .hero, .wtf-text, .sponsors-example, .sponsor-row, .sponsor-contact {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+/*
+    Flex direction
+ */
+.create .create-inputs, .create .create-event-inputs, .create .create-event, .succes-message .succes-box, .burger-menu, .menu-points, .hero, .wtf-text, .sponsors-example {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+/*
+    Flex wrap
+ */
+/*
+    Flex flow
+ */
+/*
+    Order
+ */
+/*
+    Flex grow
+ */
+/*
+    Flex shrink
+ */
+/*
+    Flex basis
+ */
+/*
+    Flex
+ */
+/*
+    Justify content
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-final-btn, .succes-message, .succes-message .succes-box, .log-out-button, .side-nav, .wtf-text, .sponsor-contact {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-flex-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .create .choose-create .create-buttons, .create .create-event, .create .create-event .date-time-inputs, .top, .burger-menu {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-flex-pack: justify;
+  -ms-flex-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+
+.event-pop .pop-sign-up, .create .create-inputs, .create .create-event-inputs, .menu-points, .sponsors-example, .sponsor-row {
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+
+/*
+    Align items
+ */
+#content .overview .overview_top, .sponsor-page .sponsor_top, .create .create-top {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  align-items: flex-end; }
+
+.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .log-out-button, .hero, .sponsors-example, .sponsor-contact {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
+/*
+    Align self
+ */
+.create .create-event .create-file {
+  -ms-flex-item-align: start;
+  -webkit-align-self: flex-start;
+  -moz-align-self: flex-start;
+  align-self: flex-start; }
+
+.event-pop .pop-name {
+  -ms-flex-item-align: end;
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  align-self: flex-end; }
+
+.sponsor-img {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  align-self: center; }
+
+/*
+    Align content
+ */
+#content .overview {
+  background-color: #F1FEF9; }
+  #content .overview .overview_top {
+    color: white;
+    font-family: "Overpass Mono", monospace;
+    height: 180px; }
+    #content .overview .overview_top p {
+      font-size: 50px;
+      color: #09765B; }
+  #content .overview .overview_filters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 5px;
+    color: #09765B;
+    font-family: "Lato", sans-serif; }
+    @media only screen and (max-width: 736px) {
+      #content .overview .overview_filters {
+        flex-direction: column; } }
+    #content .overview .overview_filters .overview_filters-view {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-grow: 1;
+      margin: 0 30px; }
+      #content .overview .overview_filters .overview_filters-view div:first-child {
+        font-size: 18px; }
+      #content .overview .overview_filters .overview_filters-view div:last-child {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        #content .overview .overview_filters .overview_filters-view div:last-child span {
+          cursor: pointer;
+          color: black;
+          padding: 7px; }
+          #content .overview .overview_filters .overview_filters-view div:last-child span i {
+            vertical-align: bottom;
+            font-size: 28px; }
+        #content .overview .overview_filters .overview_filters-view div:last-child #overview-list i {
+          font-size: 33px; }
+        #content .overview .overview_filters .overview_filters-view div:last-child #overview-grid i {
+          font-size: 31px; }
+        #content .overview .overview_filters .overview_filters-view div:last-child span.active {
+          color: #C3461E; }
+    #content .overview .overview_filters .overview_filters-selector {
+      -webkit-appearance: none;
+      border-radius: 0;
+      border: solid 2px #09765B;
+      padding: 2px;
+      flex-grow: 1;
+      margin: 0 30px;
+      background-color: #F1FEF9;
+      font-family: "Lato", sans-serif;
+      color: #09765B;
+      font-size: 17px;
+      padding-left: 5px; }
+      #content .overview .overview_filters .overview_filters-selector:focus {
+        outline: none; }
+      @media only screen and (max-width: 736px) {
+        #content .overview .overview_filters .overview_filters-selector {
+          width: 90%;
+          margin-bottom: 10px; } }
+    #content .overview .overview_filters input {
+      border: solid 2px #09765B;
+      padding: 2px;
+      flex-grow: 1;
+      margin: 0 30px;
+      background-color: #F1FEF9;
+      font-family: "Lato", sans-serif;
+      color: #09765B;
+      font-size: 17px;
+      padding-left: 5px; }
+      #content .overview .overview_filters input[type="text"] {
+        font-family: "Lato", sans-serif; }
+      #content .overview .overview_filters input:focus {
+        outline: none; }
+      #content .overview .overview_filters input::-webkit-input-placeholder {
+        /* WebKit, Blink, Edge */
+        color: #09765B;
+        font-family: "Lato", sans-serif; }
+      #content .overview .overview_filters input:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #09765B;
+        font-family: "Lato", sans-serif;
+        opacity: 1; }
+      #content .overview .overview_filters input:-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #09765B;
+        font-family: "Lato", sans-serif;
+        opacity: 1; }
+      #content .overview .overview_filters input:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #09765B;
+        font-family: "Lato", sans-serif; }
+      #content .overview .overview_filters input:-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #09765B;
+        font-family: "Lato", sans-serif; }
+      @media only screen and (max-width: 736px) {
+        #content .overview .overview_filters input {
+          width: 90%; } }
+  #content .overview .overview-content {
+    color: #09765B;
+    font-family: "Lato", sans-serif; }
+    #content .overview .overview-content h3 {
+      color: white;
+      background-color: #09765B;
+      font-family: "Overpass Mono", monospace;
+      display: inline-block; }
+    #content .overview .overview-content .event-item {
+      position: relative;
+      cursor: pointer; }
+  #content .overview .overview-content.list .event-item {
+    padding: 10px;
+    border-top: solid 1px;
+    background: transparent !important; }
+    #content .overview .overview-content.list .event-item .event-item_admin {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; }
+      #content .overview .overview-content.list .event-item .event-item_admin span {
+        cursor: pointer;
+        color: #C3461E; }
+    #content .overview .overview-content.list .event-item div {
+      margin-top: 5px;
+      max-width: 90%; }
+    #content .overview .overview-content.list .event-item .event-item_date:after {
+      content: ","; }
+  #content .overview .overview-content.list .event-item:last-of-type {
+    border-bottom: solid 1px; }
+  #content .overview .overview-content.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    #content .overview .overview-content.grid .event-item {
+      width: 33.33%;
+      height: 350px;
+      padding: 5px;
+      position: relative; }
+      #content .overview .overview-content.grid .event-item .event-item_admin {
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(-10%, 50%);
+        bottom: auto; }
+        #content .overview .overview-content.grid .event-item .event-item_admin span {
+          cursor: pointer; }
+      #content .overview .overview-content.grid .event-item div {
+        opacity: 0;
+        position: absolute;
+        bottom: 5px;
+        background-color: white;
+        -moz-transition: opacity 0.25s ease-in-out;
+        -o-transition: opacity 0.25s ease-in-out;
+        -webkit-transition: opacity 0.25s ease-in-out;
+        transition: opacity 0.25s ease-in-out; }
+      #content .overview .overview-content.grid .event-item .event-item_date:after {
+        content: ","; }
+      @media only screen and (max-width: 736px) {
+        #content .overview .overview-content.grid .event-item {
+          width: 50%; } }
+    #content .overview .overview-content.grid .event-item:hover div {
+      opacity: 1; }
+#content #newPhoneyEl {
+  display: none; }
+#content .not-logged-in .event-item_admin {
+  display: none !important; }
+
+.event-pop-wrapper {
+  width: 100%;
+  position: absolute;
+  z-index: 600;
+  background-color: rgba(0, 0, 0, 0.25);
+  overflow: scroll;
+  display: none; }
+
+.event-pop {
+  width: 75%;
+  height: auto;
+  margin: 20px 0px 20px 0px;
+  background-color: #F1FEF9;
+  overflow: scroll;
+  position: relative; }
+  @media only screen and (max-width: 736px) {
+    .event-pop {
+      width: 95%; } }
+  .event-pop .close-pop {
+    font-size: 36px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Lato", sans-serif; }
+  .event-pop .pop-top {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url("../img/datguy.jpg");
+    display: flex; }
+  .event-pop .pop-name {
+    color: white;
+    height: 55px;
+    background-color: #09765B;
+    font-family: "Overpass Mono", monospace;
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-bottom: 10px; }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-name {
+        font-size: 20px;
+        height: 35px; } }
+  .event-pop .pop-important-info {
+    width: 100%;
+    height: 70px;
+    background-color: #1EC39A;
+    padding: 0px 15px 0px 15px; }
+    .event-pop .pop-important-info .information {
+      height: 100%;
+      width: 45%; }
+      .event-pop .pop-important-info .information .info .info-header {
+        font-family: "Overpass Mono", monospace;
+        color: #09765B;
+        font-size: 20px; }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-important-info .information .info .info-header {
+            font-size: 17px; } }
+      .event-pop .pop-important-info .information .info .info-body {
+        font-family: "Lato", sans-serif;
+        color: #ffffff;
+        font-size: 20px; }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-important-info .information .info .info-body {
+            font-size: 17px; } }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .event-pop .pop-important-info .information {
+          width: 60%; } }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-important-info .information {
+          width: 100%; } }
+    .event-pop .pop-important-info .sign-up-button {
+      width: 200px;
+      height: 40px;
+      background-color: #C3461E;
+      cursor: pointer; }
+      .event-pop .pop-important-info .sign-up-button p {
+        color: #ffffff;
+        font-family: "Lato", sans-serif;
+        font-size: 20px; }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-important-info .sign-up-button {
+          margin-bottom: 10px;
+          width: 100%; } }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-important-info {
+        flex-direction: column;
+        height: 130px; } }
+  .event-pop .hidden {
+    display: none; }
+  .event-pop .pop-sign-up {
+    width: 100%;
+    height: 50px;
+    background-color: #09765B; }
+    .event-pop .pop-sign-up .sign-up {
+      width: 80%;
+      height: 100%; }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .event-pop .pop-sign-up .sign-up {
+          width: 90%; } }
+      .event-pop .pop-sign-up .sign-up input {
+        width: 200px;
+        height: 25px;
+        background-color: #F1FEF9;
+        border: none;
+        font-size: 15px;
+        padding-left: 5px; }
+        .event-pop .pop-sign-up .sign-up input::-webkit-input-placeholder {
+          /* WebKit, Blink, Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .event-pop .pop-sign-up .sign-up input:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .event-pop .pop-sign-up .sign-up input:-moz-placeholder {
+          /* Mozilla Firefox 19+ */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .event-pop .pop-sign-up .sign-up input:-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .event-pop .pop-sign-up .sign-up input:-ms-input-placeholder {
+          /* Microsoft Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          .event-pop .pop-sign-up .sign-up input {
+            width: 150px; } }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-sign-up .sign-up input {
+            width: 100%; } }
+      .event-pop .pop-sign-up .sign-up .submit-button {
+        width: 200px;
+        height: 25px;
+        background-color: #C3461E;
+        cursor: pointer; }
+        .event-pop .pop-sign-up .sign-up .submit-button p {
+          color: #ffffff;
+          font-family: "Lato", sans-serif;
+          font-size: 15px; }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          .event-pop .pop-sign-up .sign-up .submit-button {
+            width: 150px; } }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-sign-up .sign-up .submit-button {
+            width: 100%; } }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-sign-up .sign-up {
+          flex-direction: column;
+          justify-content: space-around; } }
+    .event-pop .pop-sign-up .sign-up-thx {
+      display: none;
+      color: #ffffff;
+      font-family: "Lato", sans-serif;
+      font-size: 15px;
+      padding: 10px; }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-sign-up {
+        height: 110px; } }
+  .event-pop .pop-information {
+    width: 100%;
+    height: auto; }
+    .event-pop .pop-information .pop-about {
+      width: 70%;
+      height: auto;
+      margin: 20px 0px 20px 0px;
+      padding-left: 15px; }
+      .event-pop .pop-information .pop-about .about-header {
+        font-family: "Overpass Mono", monospace;
+        color: #09765B;
+        font-size: 25px; }
+      .event-pop .pop-information .pop-about .about-info {
+        font-family: "Lato", sans-serif;
+        color: #000000;
+        font-size: 20px; }
+  .event-pop .pop-tags {
+    width: 100%;
+    height: 60px;
+    background-color: #1EC39A; }
+    .event-pop .pop-tags .tags-header p {
+      color: #ffffff;
+      font-family: "Overpass Mono", monospace;
+      font-size: 30px;
+      padding-left: 10px; }
+    .event-pop .pop-tags .tags {
+      height: 100%; }
+      .event-pop .pop-tags .tags p {
+        color: #C3461E;
+        cursor: pointer;
+        font-family: "Lato", sans-serif;
+        font-size: 25px;
+        padding-left: 10px; }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-tags .tags {
+          flex-direction: column;
+          align-items: flex-start; } }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-tags {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 5px; } }
+  .event-pop .map {
+    height: 300px; }
+    .event-pop .map iframe {
+      width: 100%;
+      height: 300px; }
+
+.sponsor-page {
+  font-family: "Lato", sans-serif; }
+  .sponsor-page .sponsor_top {
+    padding-top: 60px;
+    color: white;
+    font-family: "Overpass Mono", monospace;
+    height: 180px; }
+    .sponsor-page .sponsor_top p {
+      font-size: 50px;
+      color: #09765B; }
+  .sponsor-page .sponsor-about {
+    background-color: white;
+    padding: 10px; }
+    .sponsor-page .sponsor-about h3 {
+      color: #09765B;
+      font-size: 30px; }
+  .sponsor-page .sponsor-signup {
+    color: white;
+    padding: 10px; }
+    .sponsor-page .sponsor-signup h3 {
+      font-size: 30px; }
+    .sponsor-page .sponsor-signup .sponsor-thx {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0; }
+    .sponsor-page .sponsor-signup .input-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .sponsor-page .sponsor-signup .input-container input {
+        width: 600px;
+        border: none;
+        margin: 10px 0;
+        padding: 20px; }
+        .sponsor-page .sponsor-signup .input-container input::-webkit-input-placeholder {
+          /* WebKit, Blink, Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .sponsor-page .sponsor-signup .input-container input:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .sponsor-page .sponsor-signup .input-container input:-moz-placeholder {
+          /* Mozilla Firefox 19+ */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .sponsor-page .sponsor-signup .input-container input:-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .sponsor-page .sponsor-signup .input-container input:-ms-input-placeholder {
+          /* Microsoft Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+      .sponsor-page .sponsor-signup .input-container .sponsor-input-mail, .sponsor-page .sponsor-signup .input-container .sponsor-input-subject {
+        height: 50px; }
+      .sponsor-page .sponsor-signup .input-container .sponsor-input-text {
+        height: 300px; }
+      .sponsor-page .sponsor-signup .input-container .sponsor-apply-btn {
+        width: 600px;
+        background-color: #C3461E;
+        text-align: center;
+        padding: 10px;
+        color: white; }
+      @media only screen and (max-width: 736px) {
+        .sponsor-page .sponsor-signup .input-container input {
+          width: 100%; }
+        .sponsor-page .sponsor-signup .input-container .sponsor-apply-btn {
+          width: 100%; } }
+
+.about-main {
+  padding: 80px 70px;
+  color: white;
+  height: 100vh; }
+  .about-main h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: #09765B; }
+  .about-main p {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding: 10px; }
+
+.admin-login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif; }
+  .admin-login h2 {
+    text-align: center;
+    color: white; }
+  .admin-login .login-btn {
+    width: 600px;
+    background-color: #C3461E;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    color: white;
+    cursor: pointer; }
+    .admin-login .login-btn .fa-spinner {
+      -moz-transition: all 1.5s linear;
+      -webkit-transition: all 1.5s linear;
+      transition: all 1.5s linear; }
+      .admin-login .login-btn .fa-spinner.down {
+        -ms-transform: rotate(780deg);
+        -moz-transform: rotate(780deg);
+        -webkit-transform: rotate(780deg);
+        transform: rotate(780deg); }
+  .admin-login input {
+    width: 600px;
+    border: none;
+    margin: 10px auto;
+    padding: 20px; }
+    .admin-login input::-webkit-input-placeholder {
+      /* WebKit, Blink, Edge */
+      color: black;
+      font-family: "Lato", sans-serif; }
+    .admin-login input:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: black;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    .admin-login input:-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: black;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    .admin-login input:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: black;
+      font-family: "Lato", sans-serif; }
+    .admin-login input:-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: black;
+      font-family: "Lato", sans-serif; }
+
+#editEvent .fa-spinner, .create-event .fa-spinner {
+  -moz-transition: all 1.5s linear;
+  -webkit-transition: all 1.5s linear;
+  transition: all 1.5s linear; }
+  #editEvent .fa-spinner.down, .create-event .fa-spinner.down {
+    -ms-transform: rotate(780deg);
+    -moz-transform: rotate(780deg);
+    -webkit-transform: rotate(780deg);
+    transform: rotate(780deg); }
+
+.create {
+  width: 100%;
+  height: 100%; }
+  .create .create-top {
+    width: 100%;
+    height: 160px; }
+    .create .create-top p {
+      font-family: "Overpass Mono", monospace;
+      font-size: 50px;
+      color: #09765B; }
+  .create .choose-create {
+    width: 100%;
+    height: 100px; }
+    .create .choose-create .create-buttons {
+      width: 530px;
+      height: 100%; }
+      .create .choose-create .create-buttons .create-btn {
+        width: 170px;
+        height: 50px;
+        background-color: #C3461E;
+        font-family: "Lato", sans-serif;
+        color: white;
+        font-size: 25px;
+        cursor: pointer;
+        transition: 0.3s ease-in; }
+        @media only screen and (max-width: 736px) {
+          .create .choose-create .create-buttons .create-btn {
+            width: 100px;
+            font-size: 15px; } }
+      .create .choose-create .create-buttons .create-btn:hover {
+        background-color: #761D00 !important; }
+      .create .choose-create .create-buttons .active-btn {
+        background-color: #761D00; }
+      @media only screen and (max-width: 736px) {
+        .create .choose-create .create-buttons {
+          width: 320px; } }
+  .create .create-final-btn:hover {
+    background-color: #761D00; }
+  .create .create-user, .create .create-sponsor {
+    width: 100%;
+    display: none; }
+  .create .create-inputs {
+    width: 40%;
+    height: 250px;
+    margin-top: 20px; }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .create .create-inputs {
+        width: 55%; } }
+    @media only screen and (max-width: 736px) {
+      .create .create-inputs {
+        width: 90%; } }
+  .create .create-event-inputs {
+    width: 40%;
+    height: 100%;
+    margin-top: 20px; }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .create .create-event-inputs {
+        width: 55%; } }
+    @media only screen and (max-width: 736px) {
+      .create .create-event-inputs {
+        width: 90%; } }
+  .create .create-event {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 50px; }
+    .create .create-event .date-time-inputs {
+      width: 100%; }
+      .create .create-event .date-time-inputs .create-input {
+        width: 49%; }
+    .create .create-event .create-file {
+      font-family: "Lato", sans-serif;
+      color: #09765B; }
+  .create .create-final-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #C3461E;
+    color: white;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    transition: 0.3s ease-in;
+    cursor: pointer; }
+  .create .long-info {
+    height: 100px !important; }
+  .create .create-input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #F1FEF9;
+    font-family: "Lato", sans-serif;
+    color: #1EC39A;
+    font-size: 20px;
+    padding-left: 10px; }
+    .create .create-input::-webkit-input-placeholder {
+      /* WebKit, Blink, Edge */
+      color: #1EC39A;
+      font-family: "Lato", sans-serif; }
+    .create .create-input:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: #1EC39A;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    .create .create-input:-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #1EC39A;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    .create .create-input:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #1EC39A;
+      font-family: "Lato", sans-serif; }
+    .create .create-input:-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #1EC39A;
+      font-family: "Lato", sans-serif; }
+  .create .create-input:focus {
+    outline: none; }
+
+.succes-message {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: none; }
+  .succes-message .succes-box {
+    width: 500px;
+    height: 200px;
+    background-color: #1EC39A; }
+    .succes-message .succes-box p {
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-size: 25px; }
+    .succes-message .succes-box .succes-title {
+      font-family: "Overpass Mono", monospace;
+      font-size: 45px;
+      color: #09765B; }
+
+/**
+* SassFlexbox
+* Manage Flexbox in Sass easily.
+*
+* @author     Samuel Marchal (zessx)
+* @version    0.1
+*/
+/*
+    Display
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-event .date-time-inputs, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .burger-menu, .log-out-button, .side-nav, .menu-points, .hero, .wtf-text, .sponsors-example, .sponsor-row, .sponsor-contact {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+/*
+    Flex direction
+ */
+.create .create-inputs, .create .create-event-inputs, .create .create-event, .succes-message .succes-box, .burger-menu, .menu-points, .hero, .wtf-text, .sponsors-example {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+/*
+    Flex wrap
+ */
+/*
+    Flex flow
+ */
+/*
+    Order
+ */
+/*
+    Flex grow
+ */
+/*
+    Flex shrink
+ */
+/*
+    Flex basis
+ */
+/*
+    Flex
+ */
+/*
+    Justify content
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-final-btn, .succes-message, .succes-message .succes-box, .log-out-button, .side-nav, .wtf-text, .sponsor-contact {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-flex-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .create .choose-create .create-buttons, .create .create-event, .create .create-event .date-time-inputs, .top, .burger-menu {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-flex-pack: justify;
+  -ms-flex-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+
+.event-pop .pop-sign-up, .create .create-inputs, .create .create-event-inputs, .menu-points, .sponsors-example, .sponsor-row {
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+
+/*
+    Align items
+ */
+#content .overview .overview_top, .sponsor-page .sponsor_top, .create .create-top {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  align-items: flex-end; }
+
+.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .log-out-button, .hero, .sponsors-example, .sponsor-contact {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
+/*
+    Align self
+ */
+.create .create-event .create-file {
+  -ms-flex-item-align: start;
+  -webkit-align-self: flex-start;
+  -moz-align-self: flex-start;
+  align-self: flex-start; }
+
+.event-pop .pop-name {
+  -ms-flex-item-align: end;
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  align-self: flex-end; }
+
+.sponsor-img {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  align-self: center; }
+
+/*
+    Align content
+ */
+/**
+* SassFlexbox
+* Manage Flexbox in Sass easily.
+*
+* @author     Samuel Marchal (zessx)
+* @version    0.1
+*/
+/*
+    Display
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-event .date-time-inputs, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .burger-menu, .log-out-button, .side-nav, .menu-points, .hero, .wtf-text, .sponsors-example, .sponsor-row, .sponsor-contact {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+/*
+    Flex direction
+ */
+.create .create-inputs, .create .create-event-inputs, .create .create-event, .succes-message .succes-box, .burger-menu, .menu-points, .hero, .wtf-text, .sponsors-example {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+/*
+    Flex wrap
+ */
+/*
+    Flex flow
+ */
+/*
+    Order
+ */
+/*
+    Flex grow
+ */
+/*
+    Flex shrink
+ */
+/*
+    Flex basis
+ */
+/*
+    Flex
+ */
+/*
+    Justify content
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-final-btn, .succes-message, .succes-message .succes-box, .log-out-button, .side-nav, .wtf-text, .sponsor-contact {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-flex-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .create .choose-create .create-buttons, .create .create-event, .create .create-event .date-time-inputs, .top, .burger-menu {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-flex-pack: justify;
+  -ms-flex-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+
+.event-pop .pop-sign-up, .create .create-inputs, .create .create-event-inputs, .menu-points, .sponsors-example, .sponsor-row {
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+
+/*
+    Align items
+ */
+#content .overview .overview_top, .sponsor-page .sponsor_top, .create .create-top {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  align-items: flex-end; }
+
+.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .log-out-button, .hero, .sponsors-example, .sponsor-contact {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
+/*
+    Align self
+ */
+.create .create-event .create-file {
+  -ms-flex-item-align: start;
+  -webkit-align-self: flex-start;
+  -moz-align-self: flex-start;
+  align-self: flex-start; }
+
+.event-pop .pop-name {
+  -ms-flex-item-align: end;
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  align-self: flex-end; }
+
+.sponsor-img {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  align-self: center; }
+
+/*
+    Align content
+ */
+#content .overview {
+  background-color: #F1FEF9; }
+  #content .overview .overview_top {
+    color: white;
+    font-family: "Overpass Mono", monospace;
+    height: 180px; }
+    #content .overview .overview_top p {
+      font-size: 50px;
+      color: #09765B; }
+  #content .overview .overview_filters {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 5px;
+    color: #09765B;
+    font-family: "Lato", sans-serif; }
+    @media only screen and (max-width: 736px) {
+      #content .overview .overview_filters {
+        flex-direction: column; } }
+    #content .overview .overview_filters .overview_filters-view {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-grow: 1;
+      margin: 0 30px; }
+      #content .overview .overview_filters .overview_filters-view div:first-child {
+        font-size: 18px; }
+      #content .overview .overview_filters .overview_filters-view div:last-child {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        #content .overview .overview_filters .overview_filters-view div:last-child span {
+          cursor: pointer;
+          color: black;
+          padding: 7px; }
+          #content .overview .overview_filters .overview_filters-view div:last-child span i {
+            vertical-align: bottom;
+            font-size: 28px; }
+        #content .overview .overview_filters .overview_filters-view div:last-child #overview-list i {
+          font-size: 33px; }
+        #content .overview .overview_filters .overview_filters-view div:last-child #overview-grid i {
+          font-size: 31px; }
+        #content .overview .overview_filters .overview_filters-view div:last-child span.active {
+          color: #C3461E; }
+    #content .overview .overview_filters .overview_filters-selector {
+      -webkit-appearance: none;
+      border-radius: 0;
+      border: solid 2px #09765B;
+      padding: 2px;
+      flex-grow: 1;
+      margin: 0 30px;
+      background-color: #F1FEF9;
+      font-family: "Lato", sans-serif;
+      color: #09765B;
+      font-size: 17px;
+      padding-left: 5px; }
+      #content .overview .overview_filters .overview_filters-selector:focus {
+        outline: none; }
+      @media only screen and (max-width: 736px) {
+        #content .overview .overview_filters .overview_filters-selector {
+          width: 90%;
+          margin-bottom: 10px; } }
+    #content .overview .overview_filters input {
+      border: solid 2px #09765B;
+      padding: 2px;
+      flex-grow: 1;
+      margin: 0 30px;
+      background-color: #F1FEF9;
+      font-family: "Lato", sans-serif;
+      color: #09765B;
+      font-size: 17px;
+      padding-left: 5px; }
+      #content .overview .overview_filters input[type="text"] {
+        font-family: "Lato", sans-serif; }
+      #content .overview .overview_filters input:focus {
+        outline: none; }
+      #content .overview .overview_filters input::-webkit-input-placeholder {
+        /* WebKit, Blink, Edge */
+        color: #09765B;
+        font-family: "Lato", sans-serif; }
+      #content .overview .overview_filters input:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #09765B;
+        font-family: "Lato", sans-serif;
+        opacity: 1; }
+      #content .overview .overview_filters input:-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #09765B;
+        font-family: "Lato", sans-serif;
+        opacity: 1; }
+      #content .overview .overview_filters input:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #09765B;
+        font-family: "Lato", sans-serif; }
+      #content .overview .overview_filters input:-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #09765B;
+        font-family: "Lato", sans-serif; }
+      @media only screen and (max-width: 736px) {
+        #content .overview .overview_filters input {
+          width: 90%; } }
+  #content .overview .overview-content {
+    color: #09765B;
+    font-family: "Lato", sans-serif; }
+    #content .overview .overview-content h3 {
+      color: white;
+      background-color: #09765B;
+      font-family: "Overpass Mono", monospace;
+      display: inline-block; }
+    #content .overview .overview-content .event-item {
+      position: relative;
+      cursor: pointer; }
+  #content .overview .overview-content.list .event-item {
+    padding: 10px;
+    border-top: solid 1px;
+    background: transparent !important; }
+    #content .overview .overview-content.list .event-item .event-item_admin {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; }
+      #content .overview .overview-content.list .event-item .event-item_admin span {
+        cursor: pointer;
+        color: #C3461E; }
+    #content .overview .overview-content.list .event-item div {
+      margin-top: 5px;
+      max-width: 90%; }
+    #content .overview .overview-content.list .event-item .event-item_date:after {
+      content: ","; }
+  #content .overview .overview-content.list .event-item:last-of-type {
+    border-bottom: solid 1px; }
+  #content .overview .overview-content.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    #content .overview .overview-content.grid .event-item {
+      width: 33.33%;
+      height: 350px;
+      padding: 5px;
+      position: relative; }
+      #content .overview .overview-content.grid .event-item .event-item_admin {
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(-10%, 50%);
+        bottom: auto; }
+        #content .overview .overview-content.grid .event-item .event-item_admin span {
+          cursor: pointer; }
+      #content .overview .overview-content.grid .event-item div {
+        opacity: 0;
+        position: absolute;
+        bottom: 5px;
+        background-color: white;
+        -moz-transition: opacity 0.25s ease-in-out;
+        -o-transition: opacity 0.25s ease-in-out;
+        -webkit-transition: opacity 0.25s ease-in-out;
+        transition: opacity 0.25s ease-in-out; }
+      #content .overview .overview-content.grid .event-item .event-item_date:after {
+        content: ","; }
+      @media only screen and (max-width: 736px) {
+        #content .overview .overview-content.grid .event-item {
+          width: 50%; } }
+    #content .overview .overview-content.grid .event-item:hover div {
+      opacity: 1; }
+#content #newPhoneyEl {
+  display: none; }
+#content .not-logged-in .event-item_admin {
+  display: none !important; }
+
+.event-pop-wrapper {
+  width: 100%;
+  position: absolute;
+  z-index: 600;
+  background-color: rgba(0, 0, 0, 0.25);
+  overflow: scroll;
+  display: none; }
+
+.event-pop {
+  width: 75%;
+  height: auto;
+  margin: 20px 0px 20px 0px;
+  background-color: #F1FEF9;
+  overflow: scroll;
+  position: relative; }
+  @media only screen and (max-width: 736px) {
+    .event-pop {
+      width: 95%; } }
+  .event-pop .close-pop {
+    font-size: 36px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Lato", sans-serif; }
+  .event-pop .pop-top {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url("../img/datguy.jpg");
+    display: flex; }
+  .event-pop .pop-name {
+    color: white;
+    height: 55px;
+    background-color: #09765B;
+    font-family: "Overpass Mono", monospace;
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-bottom: 10px; }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-name {
+        font-size: 20px;
+        height: 35px; } }
+  .event-pop .pop-important-info {
+    width: 100%;
+    height: 70px;
+    background-color: #1EC39A;
+    padding: 0px 15px 0px 15px; }
+    .event-pop .pop-important-info .information {
+      height: 100%;
+      width: 45%; }
+      .event-pop .pop-important-info .information .info .info-header {
+        font-family: "Overpass Mono", monospace;
+        color: #09765B;
+        font-size: 20px; }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-important-info .information .info .info-header {
+            font-size: 17px; } }
+      .event-pop .pop-important-info .information .info .info-body {
+        font-family: "Lato", sans-serif;
+        color: #ffffff;
+        font-size: 20px; }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-important-info .information .info .info-body {
+            font-size: 17px; } }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .event-pop .pop-important-info .information {
+          width: 60%; } }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-important-info .information {
+          width: 100%; } }
+    .event-pop .pop-important-info .sign-up-button {
+      width: 200px;
+      height: 40px;
+      background-color: #C3461E;
+      cursor: pointer; }
+      .event-pop .pop-important-info .sign-up-button p {
+        color: #ffffff;
+        font-family: "Lato", sans-serif;
+        font-size: 20px; }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-important-info .sign-up-button {
+          margin-bottom: 10px;
+          width: 100%; } }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-important-info {
+        flex-direction: column;
+        height: 130px; } }
+  .event-pop .hidden {
+    display: none; }
+  .event-pop .pop-sign-up {
+    width: 100%;
+    height: 50px;
+    background-color: #09765B; }
+    .event-pop .pop-sign-up .sign-up {
+      width: 80%;
+      height: 100%; }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .event-pop .pop-sign-up .sign-up {
+          width: 90%; } }
+      .event-pop .pop-sign-up .sign-up input {
+        width: 200px;
+        height: 25px;
+        background-color: #F1FEF9;
+        border: none;
+        font-size: 15px;
+        padding-left: 5px; }
+        .event-pop .pop-sign-up .sign-up input::-webkit-input-placeholder {
+          /* WebKit, Blink, Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .event-pop .pop-sign-up .sign-up input:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .event-pop .pop-sign-up .sign-up input:-moz-placeholder {
+          /* Mozilla Firefox 19+ */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .event-pop .pop-sign-up .sign-up input:-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .event-pop .pop-sign-up .sign-up input:-ms-input-placeholder {
+          /* Microsoft Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          .event-pop .pop-sign-up .sign-up input {
+            width: 150px; } }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-sign-up .sign-up input {
+            width: 100%; } }
+      .event-pop .pop-sign-up .sign-up .submit-button {
+        width: 200px;
+        height: 25px;
+        background-color: #C3461E;
+        cursor: pointer; }
+        .event-pop .pop-sign-up .sign-up .submit-button p {
+          color: #ffffff;
+          font-family: "Lato", sans-serif;
+          font-size: 15px; }
+        @media only screen and (min-width: 768px) and (max-width: 1024px) {
+          .event-pop .pop-sign-up .sign-up .submit-button {
+            width: 150px; } }
+        @media only screen and (max-width: 736px) {
+          .event-pop .pop-sign-up .sign-up .submit-button {
+            width: 100%; } }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-sign-up .sign-up {
+          flex-direction: column;
+          justify-content: space-around; } }
+    .event-pop .pop-sign-up .sign-up-thx {
+      display: none;
+      color: #ffffff;
+      font-family: "Lato", sans-serif;
+      font-size: 15px;
+      padding: 10px; }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-sign-up {
+        height: 110px; } }
+  .event-pop .pop-information {
+    width: 100%;
+    height: auto; }
+    .event-pop .pop-information .pop-about {
+      width: 70%;
+      height: auto;
+      margin: 20px 0px 20px 0px;
+      padding-left: 15px; }
+      .event-pop .pop-information .pop-about .about-header {
+        font-family: "Overpass Mono", monospace;
+        color: #09765B;
+        font-size: 25px; }
+      .event-pop .pop-information .pop-about .about-info {
+        font-family: "Lato", sans-serif;
+        color: #000000;
+        font-size: 20px; }
+  .event-pop .pop-tags {
+    width: 100%;
+    height: 60px;
+    background-color: #1EC39A; }
+    .event-pop .pop-tags .tags-header p {
+      color: #ffffff;
+      font-family: "Overpass Mono", monospace;
+      font-size: 30px;
+      padding-left: 10px; }
+    .event-pop .pop-tags .tags {
+      height: 100%; }
+      .event-pop .pop-tags .tags p {
+        color: #C3461E;
+        cursor: pointer;
+        font-family: "Lato", sans-serif;
+        font-size: 25px;
+        padding-left: 10px; }
+      @media only screen and (max-width: 736px) {
+        .event-pop .pop-tags .tags {
+          flex-direction: column;
+          align-items: flex-start; } }
+    @media only screen and (max-width: 736px) {
+      .event-pop .pop-tags {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 5px; } }
+  .event-pop .map {
+    height: 300px; }
+    .event-pop .map iframe {
+      width: 100%;
+      height: 300px; }
+
+.sponsor-page {
+  font-family: "Lato", sans-serif; }
+  .sponsor-page .sponsor_top {
+    padding-top: 60px;
+    color: white;
+    font-family: "Overpass Mono", monospace;
+    height: 180px; }
+    .sponsor-page .sponsor_top p {
+      font-size: 50px;
+      color: #09765B; }
+  .sponsor-page .sponsor-about {
+    background-color: white;
+    padding: 10px; }
+    .sponsor-page .sponsor-about h3 {
+      color: #09765B;
+      font-size: 30px; }
+  .sponsor-page .sponsor-signup {
+    color: white;
+    padding: 10px; }
+    .sponsor-page .sponsor-signup h3 {
+      font-size: 30px; }
+    .sponsor-page .sponsor-signup .sponsor-thx {
+      width: 100%;
+      text-align: center;
+      margin: 10px 0; }
+    .sponsor-page .sponsor-signup .input-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .sponsor-page .sponsor-signup .input-container input {
+        width: 600px;
+        border: none;
+        margin: 10px 0;
+        padding: 20px; }
+        .sponsor-page .sponsor-signup .input-container input::-webkit-input-placeholder {
+          /* WebKit, Blink, Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .sponsor-page .sponsor-signup .input-container input:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .sponsor-page .sponsor-signup .input-container input:-moz-placeholder {
+          /* Mozilla Firefox 19+ */
+          color: black;
+          font-family: "Lato", sans-serif;
+          opacity: 1; }
+        .sponsor-page .sponsor-signup .input-container input:-ms-input-placeholder {
+          /* Internet Explorer 10-11 */
+          color: black;
+          font-family: "Lato", sans-serif; }
+        .sponsor-page .sponsor-signup .input-container input:-ms-input-placeholder {
+          /* Microsoft Edge */
+          color: black;
+          font-family: "Lato", sans-serif; }
+      .sponsor-page .sponsor-signup .input-container .sponsor-input-mail, .sponsor-page .sponsor-signup .input-container .sponsor-input-subject {
+        height: 50px; }
+      .sponsor-page .sponsor-signup .input-container .sponsor-input-text {
+        height: 300px; }
+      .sponsor-page .sponsor-signup .input-container .sponsor-apply-btn {
+        width: 600px;
+        background-color: #C3461E;
+        text-align: center;
+        padding: 10px;
+        color: white; }
+      @media only screen and (max-width: 736px) {
+        .sponsor-page .sponsor-signup .input-container input {
+          width: 100%; }
+        .sponsor-page .sponsor-signup .input-container .sponsor-apply-btn {
+          width: 100%; } }
+
+.about-main {
+  padding: 80px 70px;
+  color: white;
+  height: 100vh; }
+  .about-main h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: #09765B; }
+  .about-main p {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    padding: 10px; }
+
+.admin-login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif; }
+  .admin-login h2 {
+    text-align: center;
+    color: white; }
+  .admin-login .login-btn {
+    width: 600px;
+    background-color: #C3461E;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    color: white;
+    cursor: pointer; }
+    .admin-login .login-btn .fa-spinner {
+      -moz-transition: all 1.5s linear;
+      -webkit-transition: all 1.5s linear;
+      transition: all 1.5s linear; }
+      .admin-login .login-btn .fa-spinner.down {
+        -ms-transform: rotate(780deg);
+        -moz-transform: rotate(780deg);
+        -webkit-transform: rotate(780deg);
+        transform: rotate(780deg); }
+  .admin-login input {
+    width: 600px;
+    border: none;
+    margin: 10px auto;
+    padding: 20px; }
+    .admin-login input::-webkit-input-placeholder {
+      /* WebKit, Blink, Edge */
+      color: black;
+      font-family: "Lato", sans-serif; }
+    .admin-login input:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: black;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    .admin-login input:-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: black;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    .admin-login input:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: black;
+      font-family: "Lato", sans-serif; }
+    .admin-login input:-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: black;
+      font-family: "Lato", sans-serif; }
+
+#editEvent .fa-spinner, .create-event .fa-spinner {
+  -moz-transition: all 1.5s linear;
+  -webkit-transition: all 1.5s linear;
+  transition: all 1.5s linear; }
+  #editEvent .fa-spinner.down, .create-event .fa-spinner.down {
+    -ms-transform: rotate(780deg);
+    -moz-transform: rotate(780deg);
+    -webkit-transform: rotate(780deg);
+    transform: rotate(780deg); }
+
+.create {
+  width: 100%;
+  height: 100%; }
+  .create .create-top {
+    width: 100%;
+    height: 160px; }
+    .create .create-top p {
+      font-family: "Overpass Mono", monospace;
+      font-size: 50px;
+      color: #09765B; }
+  .create .choose-create {
+    width: 100%;
+    height: 100px; }
+    .create .choose-create .create-buttons {
+      width: 530px;
+      height: 100%; }
+      .create .choose-create .create-buttons .create-btn {
+        width: 170px;
+        height: 50px;
+        background-color: #C3461E;
+        font-family: "Lato", sans-serif;
+        color: white;
+        font-size: 25px;
+        cursor: pointer;
+        transition: 0.3s ease-in; }
+        @media only screen and (max-width: 736px) {
+          .create .choose-create .create-buttons .create-btn {
+            width: 100px;
+            font-size: 15px; } }
+      .create .choose-create .create-buttons .create-btn:hover {
+        background-color: #761D00 !important; }
+      .create .choose-create .create-buttons .active-btn {
+        background-color: #761D00; }
+      @media only screen and (max-width: 736px) {
+        .create .choose-create .create-buttons {
+          width: 320px; } }
+  .create .create-final-btn:hover {
+    background-color: #761D00; }
+  .create .create-user, .create .create-sponsor {
+    width: 100%;
+    display: none; }
+  .create .create-inputs {
+    width: 40%;
+    height: 250px;
+    margin-top: 20px; }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .create .create-inputs {
+        width: 55%; } }
+    @media only screen and (max-width: 736px) {
+      .create .create-inputs {
+        width: 90%; } }
+  .create .create-event-inputs {
+    width: 40%;
+    height: 100%;
+    margin-top: 20px; }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      .create .create-event-inputs {
+        width: 55%; } }
+    @media only screen and (max-width: 736px) {
+      .create .create-event-inputs {
+        width: 90%; } }
+  .create .create-event {
+    width: 100%;
+    height: 550px;
+    margin-bottom: 50px; }
+    .create .create-event .date-time-inputs {
+      width: 100%; }
+      .create .create-event .date-time-inputs .create-input {
+        width: 49%; }
+    .create .create-event .create-file {
+      font-family: "Lato", sans-serif;
+      color: #09765B; }
+  .create .create-final-btn {
+    width: 100%;
+    height: 40px;
+    background-color: #C3461E;
+    color: white;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    transition: 0.3s ease-in;
+    cursor: pointer; }
+  .create .long-info {
+    height: 100px !important; }
+  .create .create-input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #F1FEF9;
+    font-family: "Lato", sans-serif;
+    color: #1EC39A;
+    font-size: 20px;
+    padding-left: 10px; }
+    .create .create-input::-webkit-input-placeholder {
+      /* WebKit, Blink, Edge */
+      color: #1EC39A;
+      font-family: "Lato", sans-serif; }
+    .create .create-input:-moz-placeholder {
+      /* Mozilla Firefox 4 to 18 */
+      color: #1EC39A;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    .create .create-input:-moz-placeholder {
+      /* Mozilla Firefox 19+ */
+      color: #1EC39A;
+      font-family: "Lato", sans-serif;
+      opacity: 1; }
+    .create .create-input:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #1EC39A;
+      font-family: "Lato", sans-serif; }
+    .create .create-input:-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #1EC39A;
+      font-family: "Lato", sans-serif; }
+  .create .create-input:focus {
+    outline: none; }
+
+.succes-message {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: none; }
+  .succes-message .succes-box {
+    width: 500px;
+    height: 200px;
+    background-color: #1EC39A; }
+    .succes-message .succes-box p {
+      color: white;
+      font-family: "Lato", sans-serif;
+      font-size: 25px; }
+    .succes-message .succes-box .succes-title {
+      font-family: "Overpass Mono", monospace;
+      font-size: 45px;
+      color: #09765B; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  background-color: #1EC39A; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Overpass Mono", monospace; }
+
+.gradient {
+  background: -webkit-linear-gradient(left top, #1EC39A, #6ABEAB);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #1EC39A, #6ABEAB);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #1EC39A, #6ABEAB);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #1EC39A, #6ABEAB); }
+
+.top {
+  height: 60px;
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+  z-index: 400;
+  position: fixed; }
+
+.black-nav {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+svg {
+  width: 180px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 15px;
+  cursor: pointer; }
+
+.not-found-404 {
+  top: 50%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: white; }
+
+.st2, .st3, .st4, .st5, .st6 {
+  opacity: 0; }
+
+.st2 {
+  transition: 1.1s ease-in; }
+
+.st3 {
+  transition: 0.9s ease-in; }
+
+.st4 {
+  transition: 0.7s ease-in; }
+
+.st5 {
+  transition: 0.5s ease-in; }
+
+.st6 {
+  transition: 0.3s ease-in; }
+
+svg:hover .st2, svg:hover .st3, svg:hover .st4, svg:hover .st5, svg:hover .st6 {
+  opacity: 1; }
+
+svg:hover .logo {
+  opacity: 0; }
+
+.logo {
+  opacity: 1;
+  transition: 1.1s ease-out; }
+
+.burger-menu {
+  height: 36px;
+  width: 50px;
+  cursor: pointer; }
+
+.menu-line {
+  width: 50px;
+  height: 8px;
+  background-color: #ffffff; }
+
+.log-out-button {
+  width: 200px;
+  height: 36px;
+  background-color: #C3461E;
+  cursor: pointer;
+  transition: 0.5s ease-in; }
+  .log-out-button p {
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-size: 20px; }
+
+.log-out-button:hover {
+  background-color: #761D00; }
+
+.side-nav {
+  height: 100vh;
+  width: 0;
+  background-color: #222222;
+  z-index: 500;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.4s; }
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Lato", sans-serif; }
+
+.menu-points {
+  width: 60%;
+  height: 350px;
+  margin-top: 100px; }
+  @media only screen and (max-width: 736px) {
+    .menu-points {
+      height: 250px; } }
+  .menu-points a {
+    height: 50px;
+    display: none;
+    transition: 0.1s;
+    color: #1EC39A;
+    font-family: "Overpass Mono", monospace;
+    font-size: 50px;
+    cursor: pointer;
+    text-decoration: none; }
+    @media only screen and (max-width: 736px) {
+      .menu-points a {
+        font-size: 30px; } }
+  .menu-points #logOutBtn {
+    color: #C3461E; }
+
+/**
+* SassFlexbox
+* Manage Flexbox in Sass easily.
+*
+* @author     Samuel Marchal (zessx)
+* @version    0.1
+*/
+/*
+    Display
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-event .date-time-inputs, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .burger-menu, .log-out-button, .side-nav, .menu-points, .hero, .wtf-text, .sponsors-example, .sponsor-row, .sponsor-contact {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+/*
+    Flex direction
+ */
+.create .create-inputs, .create .create-event-inputs, .create .create-event, .succes-message .succes-box, .burger-menu, .menu-points, .hero, .wtf-text, .sponsors-example {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+/*
+    Flex wrap
+ */
+/*
+    Flex flow
+ */
+/*
+    Order
+ */
+/*
+    Flex grow
+ */
+/*
+    Flex shrink
+ */
+/*
+    Flex basis
+ */
+/*
+    Flex
+ */
+/*
+    Justify content
+ */
+#content .overview .overview_top, .event-pop-wrapper, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up .sign-up .submit-button, .sponsor-page .sponsor_top, .create .create-top, .create .choose-create, .create .choose-create .create-buttons .create-btn, .create .create-user, .create .create-sponsor, .create .create-final-btn, .succes-message, .succes-message .succes-box, .log-out-button, .side-nav, .wtf-text, .sponsor-contact {
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-flex-pack: center;
+  -ms-flex-pack: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-sign-up .sign-up, .create .choose-create .create-buttons, .create .create-event, .create .create-event .date-time-inputs, .top, .burger-menu {
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -webkit-flex-pack: justify;
+  -ms-flex-pack: justify;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; }
+
+.event-pop .pop-sign-up, .create .create-inputs, .create .create-event-inputs, .menu-points, .sponsors-example, .sponsor-row {
+  -moz-justify-content: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+
+/*
+    Align items
+ */
+#content .overview .overview_top, .sponsor-page .sponsor_top, .create .create-top {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  -webkit-align-items: flex-end;
+  -moz-align-items: flex-end;
+  align-items: flex-end; }
+
+.event-pop-wrapper, .event-pop .pop-important-info, .event-pop .pop-important-info .information, .event-pop .pop-important-info .sign-up-button, .event-pop .pop-sign-up, .event-pop .pop-sign-up .sign-up, .event-pop .pop-sign-up .sign-up .submit-button, .event-pop .pop-tags, .event-pop .pop-tags .tags, .create .choose-create .create-buttons, .create .choose-create .create-buttons .create-btn, .create .create-inputs, .create .create-event-inputs, .create .create-event, .create .create-final-btn, .succes-message, .succes-message .succes-box, .top, .log-out-button, .hero, .sponsors-example, .sponsor-contact {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+
+/*
+    Align self
+ */
+.create .create-event .create-file {
+  -ms-flex-item-align: start;
+  -webkit-align-self: flex-start;
+  -moz-align-self: flex-start;
+  align-self: flex-start; }
+
+.event-pop .pop-name {
+  -ms-flex-item-align: end;
+  -webkit-align-self: flex-end;
+  -moz-align-self: flex-end;
+  align-self: flex-end; }
+
+.sponsor-img {
+  -ms-flex-item-align: center;
+  -webkit-align-self: center;
+  -moz-align-self: center;
+  align-self: center; }
+
+/*
+    Align content
+ */
+.frontpage-top {
+  width: 100%;
+  height: 100vh; }
+
+.hero {
+  width: 100%;
+  height: 100vh; }
+
+.wtf-text {
+  font-family: "Overpass Mono", monospace;
+  color: #ffffff;
+  font-size: 100px;
+  width: 70%;
+  height: 650px; }
+  @media only screen and (max-width: 736px) {
+    .wtf-text {
+      font-size: 45px;
+      width: 95%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .wtf-text {
+      width: 85%;
+      font-size: 70px; } }
+
+.join {
+  font-family: "Overpass Mono", monospace;
+  color: #ffffff;
+  font-size: 40px; }
+  @media only screen and (max-width: 736px) {
+    .join {
+      font-size: 25px; } }
+
+.sponsor-section {
+  width: 100%;
+  height: 500px;
+  background-color: #09765B; }
+  .sponsor-section p {
+    font-family: "Overpass Mono", monospace;
+    color: #ffffff;
+    font-size: 40px;
+    padding-left: 30px; }
+  @media only screen and (max-width: 736px) {
+    .sponsor-section {
+      height: 300px; } }
+
+.sponsors-example {
+  width: 100%;
+  height: 400px; }
+  @media only screen and (max-width: 736px) {
+    .sponsors-example {
+      height: 200px; } }
+
+.sponsor-row {
+  width: 100%;
+  height: 120px; }
+
+.second {
+  width: 70%; }
+
+.sponsor-img {
+  width: 25%; }
+  @media only screen and (max-width: 736px) {
+    .sponsor-img {
+      width: 30%; } }
+
+.sponsor-contact {
+  width: 100%;
+  height: 50px;
+  background-color: #C3461E;
+  cursor: pointer; }
+  .sponsor-contact p {
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    font-size: 20px; }
+    @media only screen and (max-width: 736px) {
+      .sponsor-contact p {
+        font-size: 15px; } }
+
+.overview-content.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .overview-content.grid .event-item {
+    width: 33.33%;
+    height: 350px;
+    padding: 5px;
+    position: relative;
+    background: linear-gradient(rgba(30, 195, 154, 0.5), rgba(30, 195, 154, 0.5)), center center no-repeat url("../img/datguy.jpg"); }
+    .overview-content.grid .event-item div {
+      opacity: 0;
+      position: absolute;
+      bottom: 5px;
+      background-color: white;
+      -moz-transition: opacity 0.25s ease-in-out;
+      -o-transition: opacity 0.25s ease-in-out;
+      -webkit-transition: opacity 0.25s ease-in-out;
+      transition: opacity 0.25s ease-in-out; }
+    .overview-content.grid .event-item .event-item_date:after {
+      content: ","; }
+    @media only screen and (max-width: 736px) {
+      .overview-content.grid .event-item {
+        width: 50%; } }
+  .overview-content.grid .event-item:hover div {
+    opacity: 1; }
+
+.overview-content {
+  color: #09765B;
+  font-family: "Lato", sans-serif; }
+  .overview-content h3 {
+    color: white;
+    background-color: #09765B;
+    font-family: "Overpass Mono", monospace;
+    display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -330,7 +330,8 @@
       font-family: "Overpass Mono", monospace;
       display: inline-block; }
     #content .overview .overview-content .event-item {
-      position: relative; }
+      position: relative;
+      cursor: pointer; }
   #content .overview .overview-content.list .event-item {
     padding: 10px;
     border-top: solid 1px;
