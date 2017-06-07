@@ -25,5 +25,5 @@ gulp.task('useref', function(){
     return gulp.src('app/index.php')
         .pipe(useref())
         .pipe(gulpIf('*.js', uglify()))
-        .pipe(gulp.dest('dist'))
+        .pipe(gulp.dest('app/dist'))
 });

@@ -52,7 +52,6 @@ $(document).on("click","#showSignUp", function(){
 
 $(document).ready(function(){
   if (localStorage.loggedIn == "true"){
-    console.log("waht");
     $("#adminMenu").show();
     $("#notAdminMenu").hide();
   }

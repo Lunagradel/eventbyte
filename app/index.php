@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>eventByte</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/frontpage.css">
+<!--    <link rel="stylesheet" href="css/main.css">-->
+<!--    <link rel="stylesheet" href="css/frontpage.css">-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <script src="https://use.fontawesome.com/bce7f6c050.js"></script>
@@ -114,14 +114,15 @@
 
 
     <!--build:js js/combined.js -->
-    <script src="js/main.js"></script>
-    <script src="js/overview.js"></script>
-    <script src="js/overlay.js"></script>
-    <script src="js/create.js"></script>
-    <script src="js/admin.js"></script>
-    <script src="js/edit.js"></script>
-    <script src="js/console.js"></script>
+<!--    <script src="js/main.js"></script>-->
+<!--    <script src="js/overview.js"></script>-->
+<!--    <script src="js/overlay.js"></script>-->
+<!--    <script src="js/create.js"></script>-->
+<!--    <script src="js/admin.js"></script>-->
+<!--    <script src="js/edit.js"></script>-->
+<!--    <script src="js/console.js"></script>-->
     <!-- endbuild -->
+    <script src="dist/js/combined.js"></script>
 
   </body>
 </html>
